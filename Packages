@@ -1,0 +1,177 @@
+Package: com.82flex.singlemute
+Version: 1.4
+Architecture: iphoneos-arm64
+Maintainer: 82Flex <82flex@gmail.com>
+Installed-Size: 380
+Depends: firmware (>= 14.0), mobilesubstrate
+Filename: ./debs/iphoneos-arm64/Single Mute.deb
+Size: 23752
+MD5sum: 9a96b5f03641cead1a1fc71eb42b588d
+SHA1: 640eeb211c6a3c44faa2059e2830de8f39f5f34d
+SHA256: b9d2ee974689b9a6a6dbf72eb5bfe96698ee8d6fc74183717ea3469c401fa35a
+Section: Tweaks
+Description: 让静音键在时间右侧显示，详细在设置界面查看
+ * Just a single mute icon on the status bar of iOS.
+Author: 82Flex <82flex@gmail.com>
+Name: Single Mute
+
+Package: com.82flex.singlevpn
+Version: 1.1
+Architecture: iphoneos-arm64
+Maintainer: 82Flex <82flex@gmail.com>
+Installed-Size: 384
+Depends: firmware (>= 14.0), mobilesubstrate
+Filename: ./debs/history/Single VPN.deb
+Size: 27532
+MD5sum: 0a460e107ae7f0b7b3da65c762b9e1a3
+SHA1: b028dec8c0598110f4ed961a8c437b94a26048ec
+SHA256: 1c38515cf1213b0aa50df3f0e67440d93a8f6ae90a0bacefbf9a0c25340b63b8
+Section: Tweaks
+Description: 将 VPN 状态和无线状态合并为一个图标，可在设置中自定义颜色
+ * Combine VPN state and wireless state into one icon.
+Author: 82Flex <82flex@gmail.com>
+Name: Single VPN
+
+Package: com.82flex.singlevpn
+Version: 1.2
+Architecture: iphoneos-arm64
+Maintainer: 82Flex <82flex@gmail.com>
+Installed-Size: 416
+Depends: firmware (>= 14.0), mobilesubstrate
+Filename: ./debs/iphoneos-arm64/Single VPN.deb
+Size: 28316
+MD5sum: ec4d4a506eac8be21489c896f16af551
+SHA1: 84fbeb491ff55e173de8ea58133aca635ea6e8b0
+SHA256: bc675c74afe7b1bc23b5c3f222dab9d0d2b058a5fdc7f7f27a12ef37ff57496c
+Section: Tweaks
+Description: 将VPN 状态和无线状态合并为一个图标，可在设 置中自定义颜色
+ * Combine VPN state and wireless state into one icon.
+Author: 82Flex <82flex@gmail.com>
+Name: Single VPN
+
+Package: com.ash.fixrepairsystempower
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: ash
+Depends: mobilesubstrate
+Filename: ./debs/iphoneos-arm64/Fix Repair System Power_0.0.1_iphoneos-arm64.deb
+Size: 4888
+MD5sum: f72879eaa8cebe8b5185fc6b5acb73c8
+SHA1: 18f008b9df832c634329d607f5282df020055c61
+SHA256: 39fa67cf95d693dc604c5dff8445506d0a0dd5cc129aa23f3f283623f336838c
+Section: Tweaks
+Description: CPU电池保护器电池连接状态不更改删除受监控区域不使用后台位置服务不更新WiFi状态删除假装在电话管理器中搜索没有WiFi扫描结果禁用WiFi充电器队列有蜂窝电话专用位置应用程序不使用位置和详细信息删除动画删除动画虚假服务如果不必要不扫描更新删除检查时区时区（固定）AdBlock-阻止某些iAds没有自动同步隐藏iAds设备
+ * CPU Battery Saver Battery Connected State Not Change Remove Monitored Regions Don't Use Background Location Services No Update WiFi State Remove Pretending To Search In Telephony Manager No Has Results From Wifi Scan Disable Wifi Charger Queue Has Cellular Telephony Private Location Apps Not Using Location With Details Remove Animations Remove Animations Fake Service If Unnecessary Don't Scan For Updates Remove Check Time Zone Time Zone (Fixed) AdBlock - Block Some iAds No Automatic Sync Hidden iAds Device
+Author: ash
+Name: Fix Repair System Power
+Sponsor: ash
+
+Package: com.hui.instalauncher2.zh-hans
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: 灰灰
+Depends: com.jontelang.instalauncher2, firmware (>= 15.0)
+Conflicts: com.jontelang.instalauncher2.beta
+Filename: ./debs/iphoneos-arm64/InstaLauncher 2中文包.deb
+Size: 2612
+MD5sum: 12074d653da62aa81976c53898e8da1d
+SHA1: 0e0410135d6b30452808bf6862a1cf027a0cebf3
+SHA256: 11d18ec64b49d41284802ac7380b81ab57d5d03c51a7b99344a5bbba5876a28a
+Section: Tweaks
+Description: InstaLauncher 2 简单汉化
+Author: 灰灰
+Icon: http://q1.qlogo.cn/g?b=qq&nk=84666997&s=640
+Name: zh-Hans for InstaLauncher 2
+
+Package: com.jontelang.instalauncher2
+Version: 1.11.0
+Architecture: iphoneos-arm64
+Maintainer: Jonathan Winger Lang <jontelang@gmail.com>
+Installed-Size: 1188
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Conflicts: com.jontelang.instalauncher2.beta
+Filename: ./debs/iphoneos-arm64/InstaLauncher2_1.11.0.deb
+Size: 203608
+MD5sum: ceaac989ce08fafcb4f8b1254ee4c158
+SHA1: 95d4ddb7523c2925e4840e836320452d5078e693
+SHA256: e8beaa14a6d12991d308ab87fa29b5abf3bc14393e0e7a7a7e3884ec12d141cd
+Section: Tweaks
+Description: 通过侧边栏打开APP
+ * Launch ANY app instantly
+Author: Jonathan Winger Lang <jontelang@gmail.com>
+Icon: file:///Library/PreferenceBundles/instalauncher2preferences.bundle/icons/preferences-icon@2x.png
+Name: InstaLauncher 2
+
+Package: com.liuf.jpyj
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: liuf <(null)>
+Installed-Size: 280
+Depends: mobilesubstrate
+Filename: ./debs/iphoneos-arm64/系统键盘圆角.deb
+Size: 3680
+MD5sum: db23c5f573186f1b929cd3873b9004fe
+SHA1: 1cb96326ccad40bf178a070f52f296935eb5dfca
+SHA256: c02b3cd8681f8e9d52202b0f303d27e4e189370e440a2288d0fc41c3f68fe0e6
+Section: Tweaks
+Description: 系统键盘圆角
+Author: liuf <(null)>
+Name: 系统键盘圆角
+
+Package: com.sunshinesong.recorder-bubble
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: sunshinesong
+Installed-Size: 304
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Filename: ./debs/iphoneos-arm64/录屏花瓣.deb
+Size: 41856
+MD5sum: 686ec5ec22d73af42d9ddb3345df41d9
+SHA1: f87ec24c278ea1f7967414f455e5638ade66c8a1
+SHA256: d191751cfc475aea4b36693789704cffc2b7089c2ce16350b8a05aaf928f7393
+Section: Tweaks
+Description: 无设置项，当录制屏幕时，显示一个花瓣悬浮球指示器。作者源已下架，备份上架。
+Author: sunshinesong
+Name: recorder-bubble
+
+Package: misakahelper
+Version: 2.1-0
+Architecture: iphoneos-arm64
+Maintainer: Misaka
+Depends: mobilesubstrate
+Conflicts: misakahelper
+Replaces: misakahelper
+Provides: misakahelper
+Filename: ./debs/iphoneos-arm64/微信misaka end.deb
+Size: 13177372
+MD5sum: b9eec8553739306b0db9708ce2d20649
+SHA1: 90f0a8b06bf7e37927ffdbb44e29f87246c6becf
+SHA256: 120e37372a8cf1d0a22e82336185cfde161948a130b2ab209d475285d0cff165
+Section: Tweaks
+Priority: optional
+Description: 微信插件misaka，作者退圈，备份上架。
+ * MisakaHelper
+Author: Misaka
+Name: MisakaHelper
+
+Package: netskao.wechatpurification
+Version: 4.2-7
+Architecture: iphoneos-arm64
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 17133
+Depends: firmware (>= 12.0), mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/iphoneos-arm64/微信净化 4.2-7.deb
+Size: 6272304
+MD5sum: 158abf07c9ab8e72919ee56cf0640f88
+SHA1: 691752891a3d76200c36e96ed43161408e43b53d
+SHA256: 0367155e186114226b98ab38d9aed3d19a673754986917cd3b2e8d70337590e4
+Section: Tweaks
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=wechatpurificationDp
+Description: 微信净化，还原聊天本质，干净的微信给你，仅支持8.0.29及以上版本，设置位于微信-设置
+ * 备份上架
+Tag: purpose::extension
+Author: Netskao <admin@initnil.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=wechatpurificationDp
+Dev: netskao
+Name: 微信净化
+Sponsor: thebigboss.org <http://thebigboss.org>
