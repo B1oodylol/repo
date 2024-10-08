@@ -46,3 +46,26 @@ Description: 自用 越狱食用
 Author: x✨
 Name: 抖音图层
 
+Package: com.xx.dyhooks
+Version: 2.0.6+3
+Architecture: iphoneos-arm64
+Maintainer: x✨
+Installed-Size: 9332
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.xx.dyhook
+Filename: ./debs/com.xx.dyhooks_2.0.6+3_iphoneos-arm64.deb
+Size: 3872244
+MD5sum: 2ea013c2487282eca213153d1d99d029
+SHA1: fdbaa985d884a5128580eb078e676f386b14775a
+SHA256: 5c13a32140de6f1099e4b51e52513a27ce3ab772bcf03298e6ede62dfdd06338
+Section: 抖音插件
+Description: 抖音增强插件
+ * 仅支持越狱
+ * 无水印下载视频
+ * 隐藏各种元素按钮文字等
+ * 双指双击屏幕打开插件设置界面
+Author: x✨
+Icon: https://TrollStoreX.Github.io/sileodepiction/dytc/icon.png
+Name: 抖音图层
+Sileodepiction: https://TrollStoreX.Github.io/sileodepiction/dytc/js.json
+
