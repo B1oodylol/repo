@@ -14,3 +14,19 @@ Description: 微信小布丁1.0.6-1版本，可注入可越狱使用。自定义
 Author: 来了老弟 X：h_h_x_t
 Name: 微信小布丁-rootless
 
+Package: com.82flex.noredirect
+Version: 1.9
+Architecture: iphoneos-arm64
+Maintainer: Lessica <82flex@gmail.com>
+Installed-Size: 576
+Depends: firmware (>= 14.0), mobilesubstrate, com.opa334.altlist, com.opa334.libsandy
+Filename: ./debs/com.82flex.noredirect_1.9_iphoneos-arm64.deb
+Size: 53890
+MD5sum: b137eaef57e4268cad8b4dde9e3f0102
+SHA1: 8dc75342d7ddc82d3a665202e918b44ac6841c15
+SHA256: b2b1fbacc7d06c99b712a51be9e4d81ab6e0be96c321bc9fd45384aa0b9de94f
+Section: Tweaks
+Description: Stop specified apps from redirecting to App Store, Safari or other apps.
+Author: Lessica <82flex@gmail.com>
+Name: No Redirect
+
