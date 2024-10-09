@@ -273,22 +273,6 @@ Author: ash
 Name: Fix Repair System Power
 Sponsor: ash
 
-Package: com.be-huge.floating-view
-Version: 1.4.2
-Architecture: iphoneos-arm64
-Maintainer: be-huge
-Installed-Size: 2268
-Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
-Filename: ./debs/floatingView.1.4.2.deb
-Size: 363992
-MD5sum: 0110c570eae700bd792e0d1d2bf34eec
-SHA1: ca47a8ce11430d1242bb15a698106bd7b63b6282
-SHA256: bcc02aee4c7308f92bd456918adbc3e2a88dd795d8b27a9837b48a8bb3a8accf
-Section: Tweaks
-Description: 分屏，不必太复杂，一切从简即可。
-Author: be-huge
-Name: floatingView
-
 Package: com.dao.icleanerpro
 Version: 7.10.0
 Architecture: iphoneos-arm64
