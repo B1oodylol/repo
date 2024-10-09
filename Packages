@@ -215,11 +215,11 @@ Architecture: iphoneos-arm64
 Maintainer: Lessica <82flex@gmail.com>
 Installed-Size: 576
 Depends: firmware (>= 14.0), mobilesubstrate, com.opa334.altlist, com.opa334.libsandy
-Filename: ./debs/com.82flex.noredirect_1.9_iphoneos-arm64.deb
-Size: 53890
-MD5sum: b137eaef57e4268cad8b4dde9e3f0102
-SHA1: 8dc75342d7ddc82d3a665202e918b44ac6841c15
-SHA256: b2b1fbacc7d06c99b712a51be9e4d81ab6e0be96c321bc9fd45384aa0b9de94f
+Filename: ./debs/NoRedirect.1.9.deb
+Size: 77984
+MD5sum: a7247a78dc54a35c02a4bf687b4c9bc9
+SHA1: 7d1a2dfbeff597035bc7fd0696683b69dc0da2d2
+SHA256: 5161b0c3888496ce56f1b6a06d768d854099ff3d8eb6640d58a4846060efe7a0
 Section: Tweaks
 Description: Stop specified apps from redirecting to App Store, Safari or other apps.
 Author: Lessica <82flex@gmail.com>
@@ -231,11 +231,11 @@ Architecture: iphoneos-arm64
 Maintainer: Lessica <82flex@gmail.com>
 Installed-Size: 576
 Depends: firmware (>= 14.0), mobilesubstrate, com.opa334.altlist, com.opa334.libsandy
-Filename: ./debs/NoRedirect.1.9.deb
-Size: 77984
-MD5sum: a7247a78dc54a35c02a4bf687b4c9bc9
-SHA1: 7d1a2dfbeff597035bc7fd0696683b69dc0da2d2
-SHA256: 5161b0c3888496ce56f1b6a06d768d854099ff3d8eb6640d58a4846060efe7a0
+Filename: ./debs/com.82flex.noredirect_1.9_iphoneos-arm64.deb
+Size: 53890
+MD5sum: b137eaef57e4268cad8b4dde9e3f0102
+SHA1: 8dc75342d7ddc82d3a665202e918b44ac6841c15
+SHA256: b2b1fbacc7d06c99b712a51be9e4d81ab6e0be96c321bc9fd45384aa0b9de94f
 Section: Tweaks
 Description: Stop specified apps from redirecting to App Store, Safari or other apps.
 Author: Lessica <82flex@gmail.com>
@@ -288,22 +288,6 @@ Section: Tweaks
 Description: 分屏，不必太复杂，一切从简即可。
 Author: be-huge
 Name: floatingView
-
-Package: com.dao.appdata
-Version: 1.4.2
-Architecture: iphoneos-arm64
-Maintainer: Nets
-Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
-Conflicts: com.netskao.appdata, netskao.appdata-rootless
-Filename: ./debs/AppDatarootless.1.4.2.deb
-Size: 485160
-MD5sum: 9b7979e93781a836431eb4f4b6c5d9c8
-SHA1: 8fb4eb2057489922bbdbb9402c6c02aa12295dd9
-SHA256: db4742274d25816dd7faad45a399758b8956e092a6f4924fd2489892e115d711
-Section: 嗨-工具
-Description: 桌面图标上滑或下滑或3D长按菜单选择即可唤出图标应用数据的快捷工具。Netskao新更的版本，上架备份。
-Author: Fouad Raheb
-Name: AppData(rootless)
 
 Package: com.dao.icleanerpro
 Version: 7.10.0
