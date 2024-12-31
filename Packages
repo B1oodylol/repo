@@ -65,6 +65,41 @@ Description: Stop specified apps from redirecting to App Store, Safari or other 
 Author: Lessica <82flex@gmail.com>
 Name: No Redirect
 
+Package: com.be-huge.floating-view
+Version: 1.4.6-2
+Architecture: iphoneos-arm64
+Maintainer: be-huge
+Installed-Size: 2540
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Filename: ./debs/com.be-huge.floating-view_1.4.6-2_iphoneos-arm64.deb
+Size: 788760
+MD5sum: ecb8b395f53a843dc173b6fc79753ead
+SHA1: 0aadb5edd926370b22c95ab56e8250d8bd3b4afb
+SHA256: 049aaef2ccff3a33d4762198ea0805c341209ca9faee31c713c54a568b876f80
+Section: Tweaks
+Description: 分屏，不必太复杂，一切从简即可。
+Author: be-huge
+Name: floatingView
+
+Package: com.hitori.misaki
+Version: 2.2
+Architecture: iphoneos-arm64
+Maintainer: Hitori <mikasa-san@outlook.jp>
+Installed-Size: 1049
+Depends: mobilesubstrate, preferenceloader, ws.hbang.alderis
+Filename: ./debs/com.hitori.misaki_2.2_iphoneos-arm64.deb
+Size: 306010
+MD5sum: ef1edc9b18fbb51d4dfbc975e83e91c1
+SHA1: 519184fb27896871592eb37379b5548cc1db059e
+SHA256: faa4720fe55c2367a130b3cc6325f1e79ab84a71d0f285be244a3d7689727a60
+Section: Tweaks
+Description: Customize your iOS 15 & 16 experience with Misaki. customization options to make your iPhone truly yours.
+Tag: cydia::commercial, compatible_min::ios15.0
+Author: Hitori <mikasa-san@outlook.jp>
+Depiction: https://chariz.com/buy/misaki
+Icon: https://img.chariz.cloud/icon/misaki/icon@3x.png
+Name: Misaki
+
 Package: com.huayuarc.qqmusicnoads.rootless
 Version: 0.0.2
 Architecture: iphoneos-arm64
@@ -80,6 +115,20 @@ Section: 插件
 Description: 免会员开启臻品全景声，首页模块精简，屏蔽播页直播/视频，去除我的页面下拉进入我的唱片架，去除取消歌曲收藏提示窗口。
 Author: Huayuarc
 Name: QQ Music Noads-Rootless
+
+Package: com.lynxtwc
+Version: 2.5.3
+Architecture: iphoneos-arm64
+Maintainer: Lynx
+Depends: mobilesubstrate, firmware (>= 14.0), preferenceloader, ws.hbang.common
+Filename: ./debs/Lynx_2.5.3_iphoneos-arm64完整汉化.deb
+Size: 655724
+MD5sum: 5aea6b1f5fb6212a61c661779598003c
+SHA1: 3bfdf5191ad5f5bc76f1798dd7f17bb5dbb1308c
+SHA256: a7b1a4f2f0ea725d5cf0409a9de8700a551d3d86a8c053b4386cce86ebfe8d47
+Description: ios终极定制，已完全汉化
+Author: MTAC
+Name: Lynx 2
 
 Package: com.netskao.wechatnotiavatar
 Version: 1.2-5
@@ -128,4 +177,38 @@ Section: Tweaks
 Description: 无设置项，当录制屏幕时，显示一个花瓣悬浮球指示器。代码已开源，需要拓展功能自行去拿。
 Author: sunshinesong
 Name: recorder-bubble
+
+Package: com.sunshinesong.split-view-pro
+Version: 1.4.0
+Architecture: iphoneos-arm64
+Maintainer: sunshinesong
+Installed-Size: 5484
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), preferenceloader, com.opa334.altlist
+Filename: ./debs/com.sunshinesong.split-view-pro_1.4.0_iphoneos-arm64.deb
+Size: 1575080
+MD5sum: df0daa5ac6a1e678ca756db329f44b43
+SHA1: 240c3d529aa6f662ba1024dd0d9d884146b282a1
+SHA256: 620848ccc11af98825e850a690ca9db2dc07dc54063992208be5e7467dbddad7
+Section: Tweaks
+Description: 分屏，不必太复杂，一切从简即可。
+Author: sunshinesong
+Name: split-view-pro
+Ts: sp-sss
+
+Package: daynightswitch
+Version: 9.9.9
+Architecture: iphoneos-arm64
+Maintainer: Finn Gaida
+Installed-Size: 408
+Depends: mobilesubstrate
+Filename: ./debs/daynightswitch_音乐云.deb
+Size: 66620
+MD5sum: 189731b7c0a9ab9d2f3fcfb4b2588154
+SHA1: 12e53e2618fa5ac7fc877094db4718c93d8ceeaa
+SHA256: deaa9ce31ee12a265f0f94a30e10070a4f2a6f1f39379366fab6351953f0c3e1
+Section: Tweaks
+Description: 为你的开关添加一些风格
+Author: Finn Gaida
+Depiction: https://finngaida.de/repo/depictions/de.finngaida.daynightswitch
+Name: 日月开关
 
