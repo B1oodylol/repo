@@ -1,3 +1,100 @@
+Package: cn.octoforce.copyvault
+Version: 1.9.0
+Architecture: iphoneos-arm64e
+Maintainer: SquidForce, Backup
+Installed-Size: 6380
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: com.squidforce.copyvault
+Filename: ./debs/CopyVault(激活码版)_1.9.0_iphoneos-arm64e.deb
+Size: 1706700
+MD5sum: a4385df6bf4948a8e1232813424e5e96
+SHA1: 620b84f6fdd86266dfab95b603a7cbc66e50d620
+SHA256: 5dcb1f7a42ecd2e1143913f125ea9d31a50df48db7f0f0acb397779e0b0a4c18
+Section: Tweaks
+Description: 激活码用户或需要激活码的用户安装这个，非激活码用户不要安装！！Do not install if you do not have an activation code!!! Your Copy Vault, Your Pasteboard
+Author: SquidForce, Backup
+Name: CopyVault(激活码版)
+Sileodepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.copyvault/depiction.json
+
+Package: com.25mao.leftpan.roothide
+Version: 1.0-6
+Architecture: iphoneos-arm64e
+Maintainer: admin@25mao.com
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist (>= 1.0.4)
+Filename: ./debs/左滑返回(Roothide)_1.0-6_iphoneos-arm64e.deb
+Size: 83500
+MD5sum: 52bb94d89691f97abb81af18d5bb82ed
+SHA1: a4c04b6472c1069c62f27f34ded143b38d656a36
+SHA256: fa6007f6d91a1ccd0300296af38f6fd4bec7e2b05fd31716c819d33116f6c185
+Section: Rootless
+Priority: optional
+Description: 左滑返回上一页面
+Author: Mao
+Name: 左滑返回(Roothide)
+
+Package: com.25mao.miyou.rootlesss
+Version: 3.8-4
+Architecture: iphoneos-arm64e
+Maintainer: admin@25mao.com
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: firmware (>= 5.0)
+Conflicts: com.25mao.miyou.rootless
+Filename: ./debs/微信助手_3.8-4_iphoneos-arm64e.deb
+Size: 9199208
+MD5sum: 298ce9014c5943141814171a9c92c48d
+SHA1: 87242265d0519e081d735179b6036878bff1050e
+SHA256: 0e342d28ac570fd1e2d139f5b3499035c21cdc5747bad884adc5522139c31527
+Section: 微信插件
+Priority: optional
+Description: 微信多功能插件（密友）
+Author: Mao
+Icon: https://TrollStoreX.Github.io/sileodepiction/mao/icon.png
+Name: 微信助手
+Sileodepiction: https://TrollStoreX.Github.io/sileodepiction/mao/js.json
+
+Package: com.25mao.wcplugins.rootlesss
+Version: 0.1-3
+Architecture: iphoneos-arm64e
+Maintainer: admin@25mao.com
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: firmware (>= 5.0)
+Conflicts: com.25mao.wcplugins.rootless
+Replaces: com.25mao.wcplugins.rootless
+Provides: com.25mao.wcplugins.rootless
+Filename: ./debs/微信插件管理_0.1-3_iphoneos-arm64e.deb
+Size: 58080
+MD5sum: 25ed2ad865eda79d32aa40b71a8996f6
+SHA1: 7893b34498dfa874847745a692460680c37d9415
+SHA256: 2ae54e8fff30a7082479ad96d7279896f68f5c9804c3d061a9ea8031b02a527a
+Section: 微信插件
+Priority: optional
+Description: 微信插件管理
+ * 收纳第三方微信插件
+ * 位于微信右下角“我”-“插件”
+ * 部分微信插件不支持收纳
+Author: Mao
+Icon: https://TrollStoreX.Github.io/sileodepiction/wcplugins/icon.png
+Name: 微信插件管理
+Sileodepiction: https://TrollStoreX.Github.io/sileodepiction/wcplugins/js.json
+Sponsor: admin@25mao.com
+
+Package: com.82flex.touchvis
+Version: 4.0.1
+Architecture: iphoneos-arm64e
+Maintainer: Lessica <82flex@gmail.com>
+Installed-Size: 4360
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: ./debs/Touch-Viz_4.0.1_iphoneos-arm64e.deb
+Size: 914892
+MD5sum: ad94aebac472d5dbcb5f71e5de6626f5
+SHA1: 3108493ab7983b42c37dc8214038225933524bb2
+SHA256: 40e667209b1c29769b4aec2020e19763dd13fcae436053da5fce2e6941fce820
+Section: Tweaks
+Description: Display your touch interactions!
+Author: Lessica <82flex@gmail.com>
+Name: Touch-Viz
+
 Package: com.baiy.switchtheme
 Version: 1.0.0
 Architecture: iphoneos-arm64e
@@ -33,6 +130,24 @@ Author: be-huge
 Name: floatingView
 Sileodepiction: https://sileodepiction.8235467.xyz/com.be-huge.floating-view/js.json
 
+Package: com.be-huge.wechat-push-msg-page
+Version: 0.0.5
+Architecture: iphoneos-arm64e
+Maintainer: be-huge
+Installed-Size: 232
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Filename: ./debs/WechatPushMsgPage-rootless_0.0.5_iphoneos-arm64e.deb
+Size: 61512
+MD5sum: 9f34f9c156355b4b386eb9dda47bd3dd
+SHA1: 04b8cac829bee71140a527da4d1738cece256a5a
+SHA256: 7b1f9d98d0dac068247df1169f05d278827a389e9dd2313711cd67c3eebcc8a9
+Section: Tweaks
+Description: 弥补微信通知不足，支持点击微信消息通知横幅，跳转到对应的窗口。
+Author: be-huge
+Name: WechatPushMsgPage-rootless
+Sileodepiction: https://be-huge.github.io/repo/ChangeLog/Wechat/WechatMsg.json
+
 Package: com.brend0n.nopassafterrespringsafe
 Version: 0.0.3
 Architecture: iphoneos-arm64e
@@ -49,6 +164,45 @@ Section: Tweaks
 Description: Disables passcode after a respring. This version does NOT modify system file. It's safe to use. 在注销前是解锁状态的情况下，注销后自动跳过人脸或指纹识别到桌面。
 Author: Brend0n <brendonjkding@126.com>
 Name: NoPassAfterRespring (Safe)
+
+Package: com.ccsim
+Version: 1.1-9
+Architecture: iphoneos-arm64e
+Maintainer: someone
+Installed-Size: 188
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
+Filename: ./debs/CCSIM_1.1-9_iphoneos-arm64e.deb
+Size: 62400
+MD5sum: 1a788787fe81c083aac8f33d534b0e7d
+SHA1: 4280443a163c53746e34a8f3bbe0b31cd7bbce66
+SHA256: 47833559b851d6eb28496f7d24773b788125558571190ec76ee72f1219453d1e
+Section: 控制中心
+Description: 控制中心快速启用或禁用其中一张SIM卡。
+Author: Netskao
+Icon: https://s1.imagehub.cc/images/2025/01/10/0458f7f83190b2b17070085595312c2b.jpeg
+Name: CCSIM
+
+Package: com.exile90.icleanerpro
+Version: 7.10.0
+Architecture: iphoneos-arm64e
+Maintainer: Ivano Bilenchi <support@ib-soft.net>
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: firmware (>= 4.0), findutils, apt | apt7
+Conflicts: org.altervista.exilecom.icleaner
+Replaces: org.altervista.exilecom.icleaner
+Filename: ./debs/iCleaner_7.10.0_iphoneos-arm64e.deb
+Size: 1140640
+MD5sum: c4614a60bdc11be3fc26c8b54936939d
+SHA1: 346cc9da0fb76402e22c91f56ce516679dbb8fe7
+SHA256: afb642479779322ea0509f154f7940fd8aed986ec6ba1c4a64f25eb6d7ef4f2c
+Section: Utilities
+Homepage: http://ib-soft.net/icleaner
+Description: The first real iOS system cleanup and management utility
+Author: Ivano Bilenchi <support@ib-soft.net>
+Depiction: http://ib-soft.net/depictions/?pkgId=com.exile90.icleanerpro
+Icon: file:///Applications/iCleaner.app/Icon.png
+Name: iCleaner Pro
 
 Package: com.exile90.icleanerpro
 Version: 7.10.0
@@ -71,6 +225,22 @@ Depiction: http://ib-soft.net/depictions/?pkgId=com.exile90.icleanerpro
 Icon: file:///Applications/iCleaner.app/Icon.png
 Name: iCleaner Pro
 
+Package: com.flex2areo.apptools15roothide
+Version: 1.4.0
+Architecture: iphoneos-arm64e
+Maintainer: aReo
+Installed-Size: 2192
+Depends: mobilesubstrate
+Filename: ./debs/AppTools15-16(Roothide)_1.4.0_iphoneos-arm64e.deb
+Size: 545604
+MD5sum: eef256da326348f8e6e2e3a59ebc434a
+SHA1: e7e9ed0bfd7f5148c8acb457a8fbc5c5ef8aa7b7
+SHA256: d04f5e5448c80fa5d1776241db3154a2c29d6338a1edfbeecfc728bf9284967b
+Section: Tweaks
+Description: AppTools for iOS15-16 Roothide
+Author: aReo
+Name: AppTools15-16(Roothide)
+
 Package: com.jontelang.snapper3
 Version: 1.2.1
 Architecture: iphoneos-arm64e
@@ -88,6 +258,42 @@ Section: Tweaks
 Description: Pin screenshots on the screen.
 Author: Jonathan Winger-lang
 Name: Snapper 3
+
+Package: com.lclrc.hammerit
+Version: 1.7.1
+Architecture: iphoneos-arm64e
+Maintainer: lclrc(SquidForce)
+Installed-Size: 3808
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist, com.opa334.ccsupport, com.opa334.libsandy, firmware (>= 14.0)
+Filename: ./debs/Hammer_1.7.1_iphoneos-arm64e.deb
+Size: 1013776
+MD5sum: 833079e668e0ee805d2a02e22d137ed3
+SHA1: 34e0abe5428a9952d1a8fb4b96527bee5a4b9fb8
+SHA256: a9171ece8ba9061e8f1ebd4aef3c37c35605d64cf7acce3a5b1553f73c1f1531
+Section: 插件
+Description: Control your text or translate as you wish.
+Author: lclrc(SquidForce)
+Icon: https://s1.imagehub.cc/images/2025/01/10/0458f7f83190b2b17070085595312c2b.jpeg
+Name: Hammer It
+
+Package: com.lecard.wuyu
+Version: 1.3End
+Architecture: iphoneos-arm64e
+Maintainer: Crassna
+Installed-Size: 1948
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 15.0)
+Filename: ./debs/App_1.3End_iphoneos-arm64e.deb
+Size: 447716
+MD5sum: 6d9e4cb0d2a0fa1f47bedc2f8acfbcd7
+SHA1: 04e8af237002a5992342fdd810389c1a4a704543
+SHA256: 48c27fba08e30a8d9a766cd4e2d698845d32b75b51604a4da995ba55a44c0336
+Section: Tweaks
+Description: 新分屏公测最终版，上架备份
+Author: Crassna
+Name: App Lecard
+Sileodepiction: https://lincorn.github.io/sileodepiction/com.lecard.wuyu/js.json
 
 Package: com.lenglengyu.bilibilihz-rootless
 Version: 0.0.1
@@ -108,6 +314,101 @@ Depiction: https://repo.lenglengyu.top/packageInfo/bilibilihz.html
 Name: 哔哩哔哩解锁大会员画质-Rootless
 Sileodepiction: https://repo.lenglengyu.top/packageInfo/bilibilihzsileo
 
+Package: com.lns.pogrs
+Version: 0.4.0~prerelease3
+Architecture: iphoneos-arm64e
+Maintainer: Ruphane
+Installed-Size: 480
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.lns.pogr
+Filename: ./debs/AirPods_0.4.0~prerelease3_iphoneos-arm64e.deb
+Size: 113508
+MD5sum: 3b65b2c81b3a94ff7fc57315dbac52fc
+SHA1: 7e92867c0f1e6b11eebefcaf8d3b5f6c36e8fa6e
+SHA256: 98db79512955dd3e9a929f80575406ea175e8b83a6d0a14e6762ce34d747caac
+Section: AirPods
+Description: 提高低系统与新 AirPods 兼容性
+ * Tweak for better AirPods compatibility on old devices
+Author: Ruphane
+Icon: https://TrollStoreX.Github.io/sileodepiction/PodsGrant/icon.png
+Name: AirPods PodsGrant
+Sileodepiction: https://TrollStoreX.Github.io/sileodepiction/PodsGrant/js.json
+
+Package: com.netskao.qqnotiavatars
+Version: 1.2-2
+Architecture: iphoneos-arm64e
+Maintainer: Nets
+Installed-Size: 204
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: firmware (>= 15.0), firmware (<< 17.0), mobilesubstrate
+Filename: ./debs/QQNotiAvatar_1.2-2_iphoneos-arm64e.deb
+Size: 63948
+MD5sum: b0d0a8636f981d141e0c23c37833f749
+SHA1: 22ee2d4efb3ef593b8df50e0ce6088f33bc7a99c
+SHA256: b2e049c6b17d045ec6f5b521dab07f5346a9af4976377fee5789bef6ffc04c2a
+Section: Netskao-Tweaks
+Description: 让 QQ 消息通知显示 QQ 好友头像
+Author: Netskao
+Icon: https://TrollStoreX.Github.io/sileodepiction/WeChatNotiAvatar/qq.png
+Name: QQNotiAvatar QQ头像
+Sileodepiction: https://TrollStoreX.Github.io/sileodepiction/WeChatNotiAvatar/jss.json
+
+Package: com.netskao.wechatnotiavatars
+Version: 1.2-5
+Architecture: iphoneos-arm64e
+Maintainer: Nets
+Installed-Size: 2336
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: firmware (>= 15.0), firmware (<< 17.0), mobilesubstrate
+Filename: ./debs/WeChatNotiAvatar_1.2-5_iphoneos-arm64e.deb
+Size: 562040
+MD5sum: 21d78c725ff761632df613852a7fb5f7
+SHA1: 04cce8107aec0ec6a9e59507bf80330f94dc68ee
+SHA256: 01da20618941e8d876bc9024ec82af76c4a834f77bcf9f8e4cadbd145b4d17bf
+Section: Netskao-Tweaks
+Description: 让微信消息通知显示微信好友头像，傻逼张小龙为什么不支持？
+Author: Netskao
+Icon: https://TrollStoreX.Github.io/sileodepiction/Wechat/icon.png
+Name: WeChatNotiAvatar 微信头像
+Sileodepiction: https://TrollStoreX.Github.io/sileodepiction/WeChatNotiAvatar/js.json
+
+Package: com.networkmanager
+Version: 1.4.3
+Architecture: iphoneos-arm64e
+Maintainer: k
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate, com.opa334.ccsupport
+Filename: ./debs/NetworkManagerReborn_1.4.3_iphoneos-arm64e.deb
+Size: 77788
+MD5sum: 33d0a71deb52988fa0768e50291ca1bb
+SHA1: 0b97fd3174543f676caf249bdd53328270bd0e2e
+SHA256: bb61afbe2e92651d55dc29659c1a77e99fb4e3d326811ed4c1d98aa3c441900b
+Section: 控制中心
+Description: 控制中心切换网络，安装后注销去控制中心添加即可。
+Author: NoisyFlake, Nixuge
+Depiction: k
+Icon: https://s1.imagehub.cc/images/2025/01/10/0458f7f83190b2b17070085595312c2b.jpeg
+Name: NetworkManagerReborn
+
+Package: com.opa334.crane
+Version: 1.3.16-4
+Architecture: iphoneos-arm64e
+Maintainer: opa334
+Installed-Size: 3232
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader, com.opa334.altlist (>= 1.0.5), com.opa334.libsandy, com.opa334.libundirect (>= 1.1.4) | firmware (<< 14.0)
+Conflicts: com.opa334.cranelite, com.opa334.crane13lite, com.opa334.crane13, com.rpgfarm.slices3, com.subdiox.slices2, com.expetelek.slices
+Filename: ./debs/Crane_1.3.16-4_iphoneos-arm64e.deb
+Size: 646272
+MD5sum: daa1b31fe338ff9c8c18c80dbc1010c6
+SHA1: 7a56e9c59af7605012cbfcafb57d16f13d94ec86
+SHA256: d23f4d2c6dee0a9acfcccb4d6d05faa7d9d3f326fe1adebbbc5d98e1ac4e4159
+Section: Tweaks
+Description: Multiple containers for your applications!
+Author: opa334
+Name: Crane
+
 Package: com.opa334.crane
 Version: 1.3.16-4
 Architecture: iphoneos-arm64e
@@ -125,6 +426,25 @@ Section: Tweaks
 Description: Multiple containers for your applications!
 Author: opa334
 Name: Crane
+
+Package: com.ps.smoothcursorios13
+Version: 0.0.1
+Architecture: iphoneos-arm64e
+Maintainer: PoomSmart
+Installed-Size: 168
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate, firmware (>= 6.0)
+Conflicts: org.thebigboss.smoothcursor
+Filename: ./debs/SmoothCursor_0.0.1_iphoneos-arm64e.deb
+Size: 42212
+MD5sum: 4fb503e813b4db58856f5aacb7576a4a
+SHA1: eddc39234e8dcddeccea9152cd62db33d6eb7450
+SHA256: dcd98070f76f81d95ec90eacb9b96254b58ef17328685694ba46a893f17540d7
+Section: Tweaks
+Description: 仿Office 2013的输入光标
+Author: PoomSmart
+Icon: https://www.susubaby.top/images/smoothcursor.png
+Name: SmoothCursor (iOS 13+)
 
 Package: com.pullclearnc
 Version: 1.1-8
@@ -145,6 +465,123 @@ Icon: https://s1.imagehub.cc/images/2025/01/08/04172ade2f06f8ad34d2c207810f897c.
 Name: 下拉清理通知
 Sponsor: wkk
 
+Package: com.pullclearnc
+Version: 1.1-8
+Architecture: iphoneos-arm64e
+Maintainer: Nets
+Installed-Size: 168
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: ./debs/下拉清理通知_1.1-8_iphoneos-arm64e.deb
+Size: 45660
+MD5sum: a7423dc31c29866d6e3380bc47c8427e
+SHA1: cc50f56368e9937eaa30aef7dc2096f2700e7078
+SHA256: 0fd4c41ca6ade4187e56ff4a82066fff4370819666cbefb76d5b1e9acb78ed80
+Section: 插件
+Description: 通知栏快速下拉即可清理通知，并显示清理成功几条。
+Author: Netskao
+Icon: https://s1.imagehub.cc/images/2025/01/08/04172ade2f06f8ad34d2c207810f897c.png
+Name: 下拉清理通知
+Sponsor: wkk
+
+Package: com.qms.cpudasher
+Version: 1.1
+Architecture: iphoneos-arm64e
+Maintainer: lw
+Depends: firmware (>= 15.0), ellekit, mobilesubstrate
+Conflicts: cpu.dasher
+Filename: ./debs/CPUDasher_1.1_iphoneos-arm64e.deb
+Size: 34224
+MD5sum: ff17930168f7ad6d33216df2b14cbdd6
+SHA1: 7ab94394039b1f8a8c052d3daeca265dc684bea9
+SHA256: dc0aaef6f6f82efdc7a5eda42c6fd7140036c8c6a89f276fdd6a91553fd74cec
+Section: 嗨-工具
+Description: CPUDasher破解VIP。
+Author: lw
+Name: CPUDasher 破解VIP(RootHide)
+
+Package: com.skypain.cclocation
+Version: 1.1.0-1
+Architecture: iphoneos-arm64e
+Maintainer: Mr.Zhang <mr_zhang_00@163.com>
+Installed-Size: 164
+Depends: com.opa334.ccsupport
+Filename: ./debs/CCLocation_1.1.0-1_iphoneos-arm64e.deb
+Size: 14268
+MD5sum: a01960d02f2ad358e93227893336720f
+SHA1: 67574c5942a7d9c4b8940c073649af047018aa32
+SHA256: 2868edb58ea36861cec158251252d62450a5e77ebc7ed031e517f8e9600c9f31
+Section: Control Center (Modules)
+Homepage: https://skypain.github.io/repo/
+Description: 控制中心定位开关模块
+Author: Mr.Zhang <mr_zhang_00@163.com>
+Depiction: https://skypain.github.io/repo/static/view/?p=cclocation
+Icon: https://skypain.github.io/repo/src/cclocation/Icon.png
+Name: CCLocation
+Sileodepiction: https://skypain.github.io/repo/src/cclocation/config/sileo/depiction.json
+
+Package: com.skypain.ccvpn
+Version: 1.1.1-2
+Architecture: iphoneos-arm64e
+Maintainer: Mr.Zhang <mr_zhang_00@163.com>
+Installed-Size: 184
+Depends: com.opa334.ccsupport
+Filename: ./debs/CCVPN_1.1.1-2_iphoneos-arm64e.deb
+Size: 30600
+MD5sum: 91f39c08a95b7d0c752c77abb6242f65
+SHA1: 6fdbdcafd5565c34c24883793c7a3bcea7b3e3c9
+SHA256: 28c30ac0e332f851153ff1bcc53d31c81050d09a8a999317de7769fd6cc7ae2c
+Section: Control Center (Modules)
+Homepage: https://skypain.github.io/repo/
+Description: 控制中心VPN便捷开关模块
+Author: Mr.Zhang <mr_zhang_00@163.com>
+Depiction: https://skypain.github.io/repo/static/view/?p=ccvpn
+Icon: https://skypain.github.io/repo/src/ccvpn/Icon.png
+Name: CCVPN
+Sileodepiction: https://skypain.github.io/repo/src/ccvpn/config/sileo/depiction.json
+
+Package: com.sop.settingsrevamp
+Version: 2.1.1
+Architecture: iphoneos-arm64e
+Maintainer: SOPPPra
+Installed-Size: 540
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate, preferenceloader, com.mrgcgamer.libgcuniversal, firmware (>= 14)
+Conflicts: com.creaturecoding.shuffle, com.trappledestek.ikset, pro.ikghd.iksettings, xyz.cypwn.settingswidgets, org.mr.settingswidgets, com.trappledestek.settingswidgets, com.shepgoba.settingswidgets, zb.preferenceloader
+Filename: ./debs/SettingsRevamp_2.1.1_iphoneos-arm64e.deb
+Size: 137704
+MD5sum: d03def228ec91954cfe5f56e5b866bcc
+SHA1: 4e4fa0e589175c014086e1307e085ebfac825f0b
+SHA256: 3834eae1892da582b27526b3d77a5a7bfe6563efd6b9e1129f09df8d0fcd553c
+Section: Tweaks
+Description: Customize the ios settings page
+Author: SOPPPra
+Depiction: https://sopppra.mooo.com/depictions/web/com.sop.settingsrevamp.html
+Icon: https://i.postimg.cc/ry1s499R/icon-3x.png
+Name: SettingsRevamp
+Sileodepiction: https://sopppra.mooo.com/depictions/com.sop.settingsrevamp.json
+
+Package: com.susu.fuckwechatadss
+Version: 1.0.2
+Architecture: iphoneos-arm64e
+Maintainer: susu
+Installed-Size: 104
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.susu.fuckwechatads
+Filename: ./debs/微信去广告_1.0.2_iphoneos-arm64e.deb
+Size: 55284
+MD5sum: 46f3991ba18870a13f01c18e9548febd
+SHA1: 855dc859961a91052410d1e933a962ef2ead0a3a
+SHA256: affb17bde310aa8912c3b5863612cf3142f02b24e79852e103dd51ac3194ae3c
+Section: 微信插件
+Description: 移除微信广告
+ * 在微信 8.0.56 进行测试有效
+Author: susu
+Icon: https://TrollStoreX.Github.io/sileodepiction/FuckWeChatAds/icon.png
+Name: 微信去广告 FuckWeChatAds
+Sileodepiction: https://TrollStoreX.Github.io/sileodepiction/FuckWeChatAds/js.json
+
 Package: com.susu.reachplayer
 Version: 4.1.3
 Architecture: iphoneos-arm64e
@@ -164,6 +601,48 @@ Icon: https://www.susubaby.top/json/ReachPlayer/icon.png
 Name: ReachPlayer音乐专辑
 Sileodepiction: https://www.susubaby.top/json/ReachPlayer/js.json
 
+Package: com.udevs.dockx
+Version: 2.6.2
+Architecture: iphoneos-arm64e
+Maintainer: udevs
+Installed-Size: 2036
+Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0)
+Conflicts: com.restiveconch.actionbar
+Filename: ./debs/DockX_2.6.2_iphoneos-arm64e.deb
+Size: 415388
+MD5sum: e54015bbc8d71fffe6687b5721e6e2ef
+SHA1: d50ebfa957f199f3e9a71f31c5f07bbb6ec5214a
+SHA256: 99a5a357d425b35747b24a09e702922829e18bd28228b052b9dec4439b2a25c1
+Section: Tweaks
+Description: Pasteboard shortcuts on your keyboard dock!
+Author: udevs
+Icon: https://udevsharold.github.io/repo/depictions/com.udevs.dockx/icon/icon.png
+Name: DockX
+Sileodepiction: https://lclrc.github.io/repo/depictions/native/com.udevs.dockx/depiction.json
+
+Package: com.xx.qmxshooks
+Version: 1.0.3
+Architecture: iphoneos-arm64e
+Maintainer: x✨
+Installed-Size: 400
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.xx.qmxshook
+Filename: ./debs/七猫小说_1.0.3_iphoneos-arm64e.deb
+Size: 153808
+MD5sum: f43a1872525f2a839aa18b95ba60c3d3
+SHA1: 348c0bab627807d036e9337bc100be3a0bd50935
+SHA256: 47a599315b176cd045c84043fe661bcd4852ab4d9d63946348b008a563447788
+Section: 应用破解
+Description: 开通免广告权益
+ * 仅支持越狱和 Bootstrap 环境
+ * 不支持 TrollFools 注入
+ * 仅支持「七猫 7.63.10」
+ * 2024.12.23 上传
+Author: x✨
+Icon: https://TrollStoreX.Github.io/sileodepiction/repo/QiMao.png
+Name: 七猫小说 Hook
+
 Package: com.yourepo.0xash.talkatonenoads
 Version: 4.2.0
 Architecture: iphoneos-arm64e
@@ -175,6 +654,22 @@ Size: 4306
 MD5sum: 5956e5fdb8664393b826fc859f90bce5
 SHA1: 1623335650828301f288bd0c1aeef666633d66b0
 SHA256: 5045bde72f0fdfab8ef8589f67bbdb5ea3eca22c642da08369640a381c27435f
+Section: Tweaks
+Description: 开启广告订阅功能，移除两个占位的banner
+Author: gior007 <krylov0@outlook.com>
+Name: Talkatone NoAds
+
+Package: com.yourepo.0xash.talkatonenoads
+Version: 4.2.0
+Architecture: iphoneos-arm64e
+Maintainer: Ash <krylov0@outlook.com>
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate
+Filename: ./debs/Talkatone_4.2.0_iphoneos-arm64e.deb
+Size: 42040
+MD5sum: 0660f626cb3cf6f9ad0b255509e0fe67
+SHA1: 8931162eabdb5897b895cd2ae4147ba1cade8aed
+SHA256: 154d890755752e303c5ad58bb12c98c41033841709c60b2100a141130d727dc5
 Section: Tweaks
 Description: 开启广告订阅功能，移除两个占位的banner
 Author: gior007 <krylov0@outlook.com>
