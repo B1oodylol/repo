@@ -33,6 +33,24 @@ Author: be-huge
 Name: floatingView
 Sileodepiction: https://sileodepiction.8235467.xyz/com.be-huge.floating-view/js.json
 
+Package: com.jontelang.snapper3
+Version: 1.2.1
+Architecture: iphoneos-arm64e
+Maintainer: Jonathan Winger-lang
+Installed-Size: 4148
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware(>=14.0), preferenceloader
+Conflicts: com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33
+Filename: ./debs/com.jontelang.snapper3_1.2.1_iphoneos-arm64e.deb
+Size: 2269752
+MD5sum: 46e43781fd614e73dc8d0675fd4c2a1e
+SHA1: c8a7e10b475f120e17815e10e9aeecf91cdce414
+SHA256: bcd9e72c1b669e3065def90327a94fde2ddd93f01afb0fdf484a04d82ff558db
+Section: Tweaks
+Description: Pin screenshots on the screen.
+Author: Jonathan Winger-lang
+Name: Snapper 3
+
 Package: com.susu.reachplayer
 Version: 4.1.3
 Architecture: iphoneos-arm64e
@@ -51,4 +69,22 @@ Author: 苏苏
 Icon: https://www.susubaby.top/json/ReachPlayer/icon.png
 Name: ReachPlayer音乐专辑
 Sileodepiction: https://www.susubaby.top/json/ReachPlayer/js.json
+
+Package: com.zqbb.iconshadow
+Version: 1.1
+Architecture: iphoneos-arm64e
+Maintainer: zqbb
+Installed-Size: 96
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/图标阴影 （文件夹 1332 版-2.deb
+Size: 11490
+MD5sum: 5c358022a3817b0dd8187a47cf7832c3
+SHA1: cb49c8f3d569f496398e67f474de9bc2225b814b
+SHA256: 03b9abb619d86ceb59202e388090a0faefa3576c0d6a2ca287e139b8a734cf66
+Section: Tweaks
+Description: 给图标添加一层阴影图片!
+Author: zqbb
+Name: Hello Shadow
+Sileodepiction: https://rootless.002599.xyz/web/com.zqbb.iconshadow
 
