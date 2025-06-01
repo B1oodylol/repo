@@ -51,6 +51,62 @@ Description: Pin screenshots on the screen.
 Author: Jonathan Winger-lang
 Name: Snapper 3
 
+Package: com.lenglengyu.bilibilihz-rootless
+Version: 0.0.1
+Architecture: iphoneos-arm64e
+Maintainer: lenglengyu <lenglengyu@126.com>
+Installed-Size: 244
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: ./debs/com.lenglengyu.bilibilihz-rootless_0.0.1_iphoneos-arm64e.deb
+Size: 89752
+MD5sum: 4b6e5f8ba2745aa1c5b7094c91893334
+SHA1: c2ea679c5361e0b743342e22bd867ba9f49edebf
+SHA256: d2c90996ed612f2daf40c3a0e5be568e330aad0285e73597f0fa3c7991b36fb0
+Section: Fugu15
+Description: 解锁大会员画质。
+Author: lenglengyu <lenglengyu@126.com>
+Depiction: https://repo.lenglengyu.top/packageInfo/bilibilihz.html
+Name: 哔哩哔哩解锁大会员画质-Rootless
+Sileodepiction: https://repo.lenglengyu.top/packageInfo/bilibilihzsileo
+
+Package: com.opa334.crane
+Version: 1.3.16-4
+Architecture: iphoneos-arm64e
+Maintainer: opa334
+Installed-Size: 3232
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>=11.0), mobilesubstrate, preferenceloader, com.opa334.altlist (>=1.0.5), com.opa334.libsandy, com.opa334.libundirect (>=1.1.4) | firmware (<<14.0)
+Conflicts: com.opa334.cranelite, com.opa334.crane13lite, com.opa334.crane13, com.rpgfarm.slices3, com.subdiox.slices2, com.expetelek.slices
+Filename: ./debs/com.opa334.crane_1.3.16-4_iphoneos-arm64e.deb
+Size: 1551110
+MD5sum: 7e949c9240a90246f3323576adffa853
+SHA1: e2e94d8b07013dd184ed9dc5432e3bd9a6d29076
+SHA256: 8533bd1053ec3d657620cc6c420cf7e8005bd65822078116575208cb17d0f363
+Section: Tweaks
+Description: Multiple containers for your applications!
+Author: opa334
+Name: Crane
+
+Package: com.pullclearnc
+Version: 1.1-8
+Architecture: iphoneos-arm64e
+Maintainer: Nets
+Installed-Size: 168
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: ./debs/com.pullclearnc_1.1-8_iphoneos-arm64e.deb
+Size: 9092
+MD5sum: 24508a3afc531b48699d1fa33c1a302f
+SHA1: 39ef5cc11931641af89f09749e741f8773706a78
+SHA256: fc2c4cf399e63d116f186bd1fb590fdb32a2c15f1abd4c1ad9a690e7d2ccac7a
+Section: 插件
+Description: 通知栏快速下拉即可清理通知，并显示清理成功几条。
+Author: Netskao
+Icon: https://s1.imagehub.cc/images/2025/01/08/04172ade2f06f8ad34d2c207810f897c.png
+Name: 下拉清理通知
+Sponsor: wkk
+
 Package: com.susu.reachplayer
 Version: 4.1.3
 Architecture: iphoneos-arm64e
@@ -69,6 +125,22 @@ Author: 苏苏
 Icon: https://www.susubaby.top/json/ReachPlayer/icon.png
 Name: ReachPlayer音乐专辑
 Sileodepiction: https://www.susubaby.top/json/ReachPlayer/js.json
+
+Package: com.yourepo.0xash.talkatonenoads
+Version: 4.2.0
+Architecture: iphoneos-arm64e
+Maintainer: Ash <krylov0@outlook.com>
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: ./debs/com.yourepo.0xash.talkatonenoads_4.2.0_iphoneos-arm64e.deb
+Size: 4306
+MD5sum: 5956e5fdb8664393b826fc859f90bce5
+SHA1: 1623335650828301f288bd0c1aeef666633d66b0
+SHA256: 5045bde72f0fdfab8ef8589f67bbdb5ea3eca22c642da08369640a381c27435f
+Section: Tweaks
+Description: 开启广告订阅功能，移除两个占位的banner
+Author: gior007 <krylov0@outlook.com>
+Name: Talkatone NoAds
 
 Package: com.zqbb.iconshadow
 Version: 1.1
