@@ -33,6 +33,44 @@ Author: be-huge
 Name: floatingView
 Sileodepiction: https://sileodepiction.8235467.xyz/com.be-huge.floating-view/js.json
 
+Package: com.brend0n.nopassafterrespringsafe
+Version: 0.0.3
+Architecture: iphoneos-arm64e
+Maintainer: Brend0n <brendonjkding@126.com>
+Installed-Size: 168
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: ./debs/com.brend0n.nopassafterrespringsafe_0.0.3_iphoneos-arm64e.deb
+Size: 4868
+MD5sum: 5bf4ce5a6a5de5706502a0604dcd51fe
+SHA1: bcfa258a6ab23b0f09bd2ca76255f2be861ec8f7
+SHA256: b3c85cda3b7a2a478d9fc97c719a7c0421d9712370be4c9f51897e516b778ac3
+Section: Tweaks
+Description: Disables passcode after a respring. This version does NOT modify system file. It's safe to use. 在注销前是解锁状态的情况下，注销后自动跳过人脸或指纹识别到桌面。
+Author: Brend0n <brendonjkding@126.com>
+Name: NoPassAfterRespring (Safe)
+
+Package: com.exile90.icleanerpro
+Version: 7.10.0
+Architecture: iphoneos-arm64e
+Maintainer: Ivano Bilenchi <support@ib-soft.net>
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 4.0), findutils, apt | apt7
+Conflicts: org.altervista.exilecom.icleaner
+Replaces: org.altervista.exilecom.icleaner
+Filename: ./debs/com.exile90.icleanerpro_v7.10.0_iphoneos-arm64e.deb
+Size: 2752512
+MD5sum: 16a48d159289ab2eec13e9928b1dfc1e
+SHA1: 27ecc20e28821012ff612f7cd187a9233dc3b8d9
+SHA256: f0e3d29a27c35216d1bb28dc194eba8985fb39022c191be2f00cc6cc0069cc61
+Section: Utilities
+Homepage: http://ib-soft.net/icleaner
+Description: The first real iOS system cleanup and management utility
+Author: Ivano Bilenchi <support@ib-soft.net>
+Depiction: http://ib-soft.net/depictions/?pkgId=com.exile90.icleanerpro
+Icon: file:///Applications/iCleaner.app/Icon.png
+Name: iCleaner Pro
+
 Package: com.jontelang.snapper3
 Version: 1.2.1
 Architecture: iphoneos-arm64e
@@ -159,4 +197,41 @@ Description: 给图标添加一层阴影图片!
 Author: zqbb
 Name: Hello Shadow
 Sileodepiction: https://rootless.002599.xyz/web/com.zqbb.iconshadow
+
+Package: dev.traurige.batterybuddy
+Version: 1.3.5
+Architecture: iphoneos-arm64e
+Maintainer: Traurige <hello@traurige.dev>
+Installed-Size: 432
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 13.0), mobilesubstrate, preferenceloader
+Conflicts: love.litten.batterybuddy
+Filename: ./debs/dev.traurige.batterybuddy_1.3.5_iphoneos-arm64e.deb
+Size: 46564
+MD5sum: c9d27460abd14c48a4edbfbb38e5d4a0
+SHA1: 2d3530a34c464c425904ce5e00d154bd2fa45f00
+SHA256: 98c7f6d5179ee3ab36b7307c6dd722634924ddf99ecc23c8b483f2e4d5f7fc19
+Section: Tweaks
+Description: Battery indicator, but cute
+Author: Traurige & neilsardesai <hello@traurige.dev>
+Name: BatteryBuddy
+
+Package: ru.domo.cocoatop64
+Version: 2.2.4
+Architecture: iphoneos-arm64e
+Maintainer: Hitori
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0)
+Conflicts: ru.domo.cocoatop
+Filename: ./debs/ru.domo.cocoatop64_2.2.4_iphoneos-arm64e.deb
+Size: 307418
+MD5sum: 7b5ad6c646f7be03d6790443d5375971
+SHA1: 311d87b9c13ec0fa733b8e89d3db25935b971fcd
+SHA256: 7dc993a661bda05037bcb99a889f2f711c0f7cbbb121a87388f8f2be8bdd5745
+Section: Utilities
+Description: Process Viewer for iOS
+Author: Domo <domo@rambler.ru>
+Icon: https://siieo.github.io/sileodepictions/CocoaTop/icon.png
+Name: CocoaTop64
+Sileodepiction: https://siieo.github.io/sileodepictions/CocoaTop/CocoaTop.json
 
