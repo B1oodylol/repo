@@ -1,3 +1,20 @@
+Package: cn.Bswbw.fixset
+Version: 1.1
+Architecture: iphoneos-arm64e
+Maintainer: gblw
+Installed-Size: 123
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/cn.bswbw.fixset.deb
+Size: 50594
+MD5sum: 8ab4359da295ccf5b7f0769a36064660
+SHA1: a824ae98ddf9373fb32cc055dc08001bf11cd570
+SHA256: b8331be065178735c0a66d4c1f8c320ceece2b8dac9c714102f593d7995d7e93
+Description: 修复部分插件转roothide配置不保存问题
+Author: @bswbw
+Depiction: https://repo.lenglengyu.top/packageInfo/fixset.html
+Name: FixSet
+Sileodepiction: https://repo.lenglengyu.top/packageInfo/fixsetsileo
+
 Package: cn.octoforce.copyvault
 Version: 1.9.0
 Architecture: iphoneos-arm64e
@@ -710,6 +727,24 @@ Section: Tweaks
 Description: Battery indicator, but cute
 Author: Traurige & neilsardesai <hello@traurige.dev>
 Name: BatteryBuddy
+
+Package: lai28.springanimation
+Version: 0.1-3+debug
+Architecture: iphoneos-arm64e
+Maintainer: 剑来
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/SpringAnimation_0.1-3+debug.deb
+Size: 3500
+MD5sum: f73a23446ebf6ba4591b2feb871208c3
+SHA1: 90fa381e7fa6243803ed7545b2d18daf78353c60
+SHA256: d21cb844b63c657c1845b204859f0545746d687b6c536d76dea352577948faab
+Section: 系统增强
+Description: 桌面交互动画
+Author: 剑来
+Icon: https://s1.imagehub.cc/images/2025/02/28/f304f3a0a6ed71e8fb336e7ed1c09996.jpeg
+Name: SpringAnimation
+Sileodepiction: http://lai28.988456.xyz/depictions/native/lai28.springanimation/depiction.json
 
 Package: ru.domo.cocoatop64
 Version: 2.2.4
