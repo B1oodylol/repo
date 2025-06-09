@@ -50,6 +50,24 @@ Author: SquidForce, Backup
 Name: CopyVault(激活码版)
 Sileodepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.copyvault/depiction.json
 
+Package: cn.octoforce.squidgesturepro
+Version: 2.7.6-1
+Architecture: iphoneos-arm64e
+Maintainer: SquidForce, Backup
+Installed-Size: 6668
+Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0)
+Conflicts: com.lclrc.squidgesture, com.lclrc.squidgesturepro
+Filename: ./debs/SquidGesturePro(激活码)_2.7.6-1_iphoneos-arm64e.deb
+Size: 1787168
+MD5sum: b86ac9f92dd6c73772b4464323dabfad
+SHA1: f0014de6cc033daca6a95d5bf059c541c0847186
+SHA256: 87f4a79eb2bf554ba0eb95070853799a9d890d27506a4bbfdfebdf8e3fd6ed10
+Section: Tweaks
+Description: Gestures，激活码用户或需要激活码的用户安装此包，非激活码用户不要装!
+Author: SquidForce, Backup
+Name: SquidGesturePro(激活码)
+Sileodepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.squidgesturepro/depiction.json
+
 Package: cn.zqbb.disupdateapp
 Version: 2.0.0-6
 Architecture: iphoneos-arm64e
@@ -157,10 +175,10 @@ Pre-Depends: rootless-compat (>= 0.9)
 Depends: firmware (>= 5.0)
 Conflicts: com.25mao.doutu.rootless
 Filename: ./debs/斗图助手_3.1-6_iphoneos-arm64e.deb
-Size: 1090540
-MD5sum: cb3e8274a291d42d46b4e40bb0da8014
-SHA1: d354a7487bc79a87cf77f089a4ba1fc27b1e1709
-SHA256: 67ca58d956e50fa26f1b3e2a833d0ca4e12ebacca79047e2f679f0993a48be9d
+Size: 1090536
+MD5sum: 79678d70ed355ff191ee33cba04c7e4c
+SHA1: 04c8246a77f1342870ce0d8059e7cea718b68961
+SHA256: 2e8941219da38ddb73e087561b2a0eec28fcc84bdcd21879369f592b844c7050
 Section: 微信插件
 Description: 微信斗图助手插件
 Author: Mao
@@ -175,10 +193,10 @@ Maintainer: admin@25mao.com
 Pre-Depends: rootless-compat (>= 0.9)
 Depends: mobilesubstrate, preferenceloader, com.opa334.altlist (>= 1.0.4)
 Filename: ./debs/左滑返回(Roothide)_1.0-6_iphoneos-arm64e.deb
-Size: 83500
-MD5sum: 52bb94d89691f97abb81af18d5bb82ed
-SHA1: a4c04b6472c1069c62f27f34ded143b38d656a36
-SHA256: fa6007f6d91a1ccd0300296af38f6fd4bec7e2b05fd31716c819d33116f6c185
+Size: 83464
+MD5sum: ca8a67e9d548b81173a627c3eb44eeaa
+SHA1: bf5389b5d6a0a44a8c5e44ae6df52b4fb47b64d0
+SHA256: db119cce998e070bc07365fdb976e62376e0aec9ca953cf2a4cdb7e3e43ffb0e
 Section: Rootless
 Priority: optional
 Description: 左滑返回上一页面
@@ -193,10 +211,10 @@ Pre-Depends: rootless-compat (>= 0.9)
 Depends: firmware (>= 5.0)
 Conflicts: com.25mao.miyou.rootless
 Filename: ./debs/微信助手_3.8-4_iphoneos-arm64e.deb
-Size: 9199164
-MD5sum: 672892cdfed9002e56c4e7872b13eba6
-SHA1: fd2b6e0866b8e244268c0e477fab1932ff383d66
-SHA256: cfad1e19aff3d6951ead6f9b386b24674f54be6221b533f6d488ee8ae6a17136
+Size: 9199212
+MD5sum: a46b273c6f99b322d37e31e1315c4ebd
+SHA1: 8667e06f82eb5a15adc53ab8709b856300f21b75
+SHA256: d8f5ecfab07b272567a25ead26cdb5d0130f3d1ab9c36bb904e432f850fd1956
 Section: 微信插件
 Priority: optional
 Description: 微信多功能插件（密友）
@@ -215,10 +233,10 @@ Conflicts: com.25mao.wcplugins.rootless
 Replaces: com.25mao.wcplugins.rootless
 Provides: com.25mao.wcplugins.rootless
 Filename: ./debs/微信插件管理_0.1-3_iphoneos-arm64e.deb
-Size: 58076
-MD5sum: 2bb8dabde4baa68db2d9b0d2ee3dc56e
-SHA1: 88b542a89fbdb0105961220d142f3b7dcf43077f
-SHA256: ac30b7be5ebb1f777b17cdabe8b4c5957388136c63b553f7364eea75f1de85c9
+Size: 58088
+MD5sum: 51a68dd6bebd5c4097212a90a9c25a2c
+SHA1: 03fe58587d3f0db83a9f8166db10af267ac7c43a
+SHA256: 3e7c0dc3b42fab49368f3a859573074573789abfdebae649c7b426c8ae64db44
 Section: 微信插件
 Priority: optional
 Description: 微信插件管理
@@ -254,14 +272,33 @@ Maintainer: Lessica <82flex@gmail.com>
 Installed-Size: 4360
 Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
 Filename: ./debs/Touch-Viz_4.0.1_iphoneos-arm64e.deb
-Size: 915632
-MD5sum: 75bc05fa8d3b5ad46e0fedf788ffca6a
-SHA1: c77963007d416b3d77653439726431e25781cf09
-SHA256: 534614e9f3196eaa3763ec25683fcf35119fbcc6b0b2a30b722daa2520236f18
+Size: 915736
+MD5sum: 6ed242d6d0d64f27b78aa307dd393ea1
+SHA1: 651c4056480119e55b131851ecac8fb95d33b034
+SHA256: 6f9d7ad714f44890da646309a6ec3a1f6580f1bee39f757b2ba5ef93a2e6de52
 Section: Tweaks
 Description: Display your touch interactions!
 Author: Lessica <82flex@gmail.com>
 Name: Touch-Viz
+
+Package: com.axs.switchtheme
+Version: 1.0.0
+Architecture: iphoneos-arm64e
+Maintainer: baiy（qq：961666883））
+Installed-Size: 272
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate
+Filename: ./debs/日月开关_1.0.0_iphoneos-arm64e.deb
+Size: 75508
+MD5sum: 95f7550e6bb87814e43ff7853b15e7ec
+SHA1: f5cb0a0cf267623602c7532db8dd372caf1c89d4
+SHA256: 8b350347db35fbdb9d5ec6fce79c8a398ed3eb9ebcdb56283fa41b87159fe762
+Section: Tweaks
+Description: 这是一款款全新的开关主题，通过模拟太阳升起与落下的动画效果，带来极致流畅且视觉惊艳的替代体验。
+Author: 白衣
+Icon: https://axs66.github.io/repo/icon/switchtheme.png
+Name: 日月开关
+Sileodepiction: https://axs66.github.io/repo/sileodepiction/switchtheme/js.json
 
 Package: com.baiy.switchtheme
 Version: 1.0.0
@@ -325,10 +362,10 @@ Pre-Depends: rootless-compat (>= 0.9)
 Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
 Conflicts: com.be-huge.wechat-pop-vc
 Filename: ./debs/微信全局右滑手势_0.0.3_iphoneos-arm64e.deb
-Size: 59872
-MD5sum: 1a54fe50e9e379bfd19eed38ee1e6728
-SHA1: 06926f303cfeb88b1f8fb146ec3187cbff0e0c86
-SHA256: d26a2ab031602b4ea90306c793f7708e4697fd6729e579c49fb84db8a1097f91
+Size: 59892
+MD5sum: ce094a72471833b98cc99b43f03e44e6
+SHA1: dbba27304e4e1917cab4633660292abe25a2cac4
+SHA256: bcd6b28fa9578f341f56dcbf773c4fcb597a29b3d7ed6edf59a2dbe105758c81
 Section: 微信插件
 Description: 微信全局右滑手势，弥补官方只能屏幕侧边返回上一页局限性，提高用户体验
 Author: be-huge
@@ -344,10 +381,10 @@ Installed-Size: 232
 Pre-Depends: rootless-compat (>= 0.9)
 Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
 Filename: ./debs/WechatPushMsgPage-rootless_0.0.5_iphoneos-arm64e.deb
-Size: 61536
-MD5sum: 82751c48969d1c04a47566120bb70452
-SHA1: a0fb3d63ac6f3ec274f4af384acb8e9c58a54e60
-SHA256: be36d9dffc1430795554a5bf71a011bce7533e723575d72d4b49fe0b91731980
+Size: 61488
+MD5sum: f27089b980990beac566d773804c3d66
+SHA1: 0bc191af9c86f9a9b1c2f81727337aa690e9da3a
+SHA256: 72f1c39dbd6526127aef1f322a590294ef6a7d7b6b728da08dc8c703185e88d0
 Section: Tweaks
 Description: 弥补微信通知不足，支持点击微信消息通知横幅，跳转到对应的窗口。
 Author: be-huge
@@ -483,6 +520,23 @@ Description: AppTools for iOS15-16 Roothide
 Author: aReo
 Name: AppTools15-16(Roothide)
 
+Package: com.huayuarc.systemspeed
+Version: 1.0.0
+Architecture: iphoneos-arm64e
+Maintainer: Huayuarc
+Installed-Size: 88
+Depends: mobilesubstrate
+Filename: ./debs/SystemSpeed_1.0.0_iphoneos-arm64e.deb
+Size: 5604
+MD5sum: 6d666d80c8399441b03a950dd67dc701
+SHA1: f77d3dc1b6ea369e6b1a7926eff6b010ed787b32
+SHA256: 4ab25c08903c32cd71959dfad4b62151df253220974d6e46a400989b590d9e74
+Section: Tweaks
+Description: iOS系统底层优化,四大核心模块：1,网络加速系统(HTTP/3,TCP/IP协议栈优化)2,信号增强系统(5G/VoLTE强制启用)3,动画加速系统(全局动画压缩)4,隐私保护系统(定位服务控制)
+Author: Huayuarc
+Icon: https://huayuarc.github.io/images/SystemBoost.png
+Name: SystemSpeed
+
 Package: com.jontelang.snapper3
 Version: 1.2.1
 Architecture: iphoneos-arm64e
@@ -510,10 +564,10 @@ Pre-Depends: rootless-compat (>= 0.9)
 Depends: mobilesubstrate, firmware (>= 14.0), preferenceloader
 Conflicts: com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33
 Filename: ./debs/Snapper_1.2.1_iphoneos-arm64e.deb
-Size: 1079800
-MD5sum: 5bcb5f5348d66230abec04c134a66116
-SHA1: 25de8c61e2513a5b8b499b97a56b361289be8a43
-SHA256: 69edd2173cdb8538c4b18ef32bed4adb3117a67618f5b5577f2a0886f68b81a2
+Size: 1159980
+MD5sum: 69b3e04fc17b437cafbc79be0940bae7
+SHA1: 153b766189bc3834714e90616d4e1cb6f289d80b
+SHA256: 085154c201e1358b53fc95c22bd48f34048262113a4bcd124e680db4d867e68e
 Section: Tweaks
 Description: Pin screenshots on the screen.
 Author: Jonathan Winger-lang
@@ -621,10 +675,10 @@ Installed-Size: 204
 Pre-Depends: rootless-compat (>= 0.9)
 Depends: firmware (>= 15.0), firmware (<< 17.0), mobilesubstrate
 Filename: ./debs/QQNotiAvatar_1.2-2_iphoneos-arm64e.deb
-Size: 64068
-MD5sum: 609b2cf3224312f65fd0c24b526ec309
-SHA1: 35e9dda74d93c1d871ead1cb107bf675a740973b
-SHA256: 1ed7f9d28743b77ae4a4fdca96072a06475e52ed8caf1baab4d713f6f4f0a796
+Size: 64036
+MD5sum: bcc420cffb5c8d2e569afd0a53d036d4
+SHA1: 95c742790d138ccab1f7468f7ff266a63f61afdd
+SHA256: 286aac061004daacb95e87563e3a25e43c76f6323766c01135969233240ed213
 Section: Netskao-Tweaks
 Description: 让 QQ 消息通知显示 QQ 好友头像
 Author: Netskao
@@ -640,10 +694,10 @@ Installed-Size: 2336
 Pre-Depends: rootless-compat (>= 0.9)
 Depends: firmware (>= 15.0), firmware (<< 17.0), mobilesubstrate
 Filename: ./debs/WeChatNotiAvatar_1.2-5_iphoneos-arm64e.deb
-Size: 561512
-MD5sum: 75817a4df8b639553199ba3d43193ab4
-SHA1: 37937305cd56ff1ae12afe1e08233888da774751
-SHA256: c4a43d4dbbdaab987c3dedef7e1700939dd39f48785d20b1ccac68bb04a6ecab
+Size: 561804
+MD5sum: 976b70543a1907e6a928b649751f5fa2
+SHA1: 051c59254dc0147b3262585b9dccda2e93f58696
+SHA256: 921fa30b58934404dfbc5988e56deaa3990f511e59ee4ac25e01ae1bac0db056
 Section: Netskao-Tweaks
 Description: 让微信消息通知显示微信好友头像，傻逼张小龙为什么不支持？
 Author: Netskao
@@ -783,10 +837,10 @@ Pre-Depends: rootless-compat (>= 0.9)
 Depends: mobilesubstrate, firmware (>= 6.0)
 Conflicts: org.thebigboss.smoothcursor
 Filename: ./debs/SmoothCursor_0.0.1_iphoneos-arm64e.deb
-Size: 42176
-MD5sum: b672293b207ffe63f41d8c6e388c00a2
-SHA1: 58e8c55706a179527f69ae33add997e921e16083
-SHA256: ca75a5f87c6d15d339047e0ce73d7f13b179a601979cc6c3a9476239071dfca4
+Size: 42160
+MD5sum: cee8cdb1b665b40835b0651d78c45893
+SHA1: a4794533ecfd6501b6c3a229f48eba69d21f93f2
+SHA256: 82a45f89520978fe676e07fc739898d608ca49b0157b9514eab27bc13390572a
 Section: Tweaks
 Description: 仿Office 2013的输入光标
 Author: PoomSmart
@@ -820,10 +874,10 @@ Installed-Size: 168
 Pre-Depends: rootless-compat (>= 0.9)
 Depends: firmware (>= 15.0), mobilesubstrate
 Filename: ./debs/下拉清理通知_1.1-8_iphoneos-arm64e.deb
-Size: 45580
-MD5sum: 4da45935c9d6833644c2ff72861395bb
-SHA1: ce212e38837357658c1e4910fedf932e0fb93693
-SHA256: 8e78f09e685d95cbfaaac283a41c8cfaca636aef9b2e680e6d799b0322200b7e
+Size: 45608
+MD5sum: cd763765cba8827067f630e0e6243a02
+SHA1: 9b1579f81be70255c79015f4e3fb41a7393f1143
+SHA256: c79e7031ae2bce4f7adea2d6168b6ea120f44bbfe5d4cc91ab5d3b8b069d5873
 Section: 插件
 Description: 通知栏快速下拉即可清理通知，并显示清理成功几条。
 Author: Netskao
@@ -854,10 +908,10 @@ Maintainer: roothide
 Installed-Size: 1076
 Depends: firmware (>= 15.0)
 Filename: ./debs/RootHide_1.3.4_iphoneos-arm64e.deb
-Size: 749680
-MD5sum: a13c67d9d429d7cdbf7de12e5ae36b5b
-SHA1: 69767962a34f80f9aba2bdc19c5bf4f60aae9e05
-SHA256: b7874476051f40a0349420dd5893c1895681a213135cdf9104930f8e893a5a1d
+Size: 749272
+MD5sum: 2b8249648158cb67e96ad9f3a7855365
+SHA1: 212f77ea08cf1bde4806bbc70128a638e86f0641
+SHA256: 483fb71534527ac3dac6edffef90abd67aba1477286ae6f265b0a23181cc9ae7
 Section: System
 Description: Configuare RootHide's Features
 Author: roothide
@@ -872,10 +926,10 @@ Maintainer: roothide
 Installed-Size: 4128
 Depends: firmware (>= 15.0), libxar1, ldid, file, dpkg, gawk, plutil (>= 0.2.2-1), uikittools (>= 2.1.6-4)
 Filename: ./debs/RootHide_2.1.2-1+debug_iphoneos-arm64e.deb
-Size: 1168776
-MD5sum: 387b7736e19fa450e28e045bf07e112f
-SHA1: d5bce5d6f80a48e205ae8524ad4f4ea0492176f5
-SHA256: f651ca6ef7bc02e6418dac650afa209760bdcc6ea2a36ce09b180b6e9bc911ea
+Size: 1169380
+MD5sum: b8dfe7c0b105a2eb3d7f5e5e5844c73a
+SHA1: 67f81564fa53bf8bc67cb5261c98158edb064517
+SHA256: 7a2ea747ac649b376d4b200f1c70cda13b5080da1c4b2e04427642948871997c
 Section: Utilities
 Description: patch rootless package to roothide, not work for all packages.
 Author: roothide
@@ -949,10 +1003,10 @@ Pre-Depends: rootless-compat (>= 0.9)
 Depends: mobilesubstrate, preferenceloader, com.mrgcgamer.libgcuniversal, firmware (>= 14)
 Conflicts: com.creaturecoding.shuffle, com.trappledestek.ikset, pro.ikghd.iksettings, xyz.cypwn.settingswidgets, org.mr.settingswidgets, com.trappledestek.settingswidgets, com.shepgoba.settingswidgets, zb.preferenceloader
 Filename: ./debs/SettingsRevamp_2.1.1_iphoneos-arm64e.deb
-Size: 138064
-MD5sum: 7e484b46ae5dc873f774a336a4257b43
-SHA1: c862bbfb961c7825683bc7d20798644428b75f52
-SHA256: e90af503a96fd4c8796df1a9d539055109177c7ad4f77c4d92e111b170a3d4af
+Size: 138020
+MD5sum: 8c4dff59284f6976565443954304e076
+SHA1: 6f7697b58e6d8b84a819eb76269b13adeef20aa2
+SHA256: da3fc42e91dacbc55cccbbe83ab3f6360fbbc4db32bcc27834bb9f28c133dd19
 Section: Tweaks
 Description: Customize the ios settings page
 Author: SOPPPra
@@ -970,10 +1024,10 @@ Pre-Depends: rootless-compat (>= 0.9)
 Depends: mobilesubstrate (>= 0.9.5000)
 Conflicts: com.susu.fuckwechatads
 Filename: ./debs/微信去广告_1.0.2_iphoneos-arm64e.deb
-Size: 55220
-MD5sum: 2a677c62ecfc16760ad93d4c189eb949
-SHA1: cc3a4339d535fdb5bb1b771af8683740027a92d1
-SHA256: a83d7cbbbcd9bb869ba82fa78cd26b910b94f6613021b234e0ef5b048ddca8ae
+Size: 55380
+MD5sum: d3d1618b88d5e3db3eab6950d9b0ce46
+SHA1: ff717380e70871c1b5ac9ab28233ba36fc2da339
+SHA256: 8f7a78572ce0850d8390b1b2242cccb6e6795c1464ccde293e7834fc1376121d
 Section: 微信插件
 Description: 移除微信广告
  * 在微信 8.0.56 进行测试有效
@@ -1009,10 +1063,10 @@ Installed-Size: 3668
 Pre-Depends: rootless-compat (>= 0.9)
 Depends: mobilesubstrate
 Filename: ./debs/ReachPlayer音乐专辑_4.1.3_iphoneos-arm64e.deb
-Size: 1297024
-MD5sum: 657acf355472b17476c89743036dcdb3
-SHA1: 94b03fd4fe7105429a3cd12b277cb87be11f5e2a
-SHA256: 1b64bd8b1359676ce8a24afacc1a875a36fc5beff5de34711c09f3a6a84d5133
+Size: 1296972
+MD5sum: 17b801350e1fb557ba18b1a19e1029ab
+SHA1: e8fb7cd174568bed324fb160f4f2f9d0488982e4
+SHA256: 45e1e088c325a5698ddc3e1b68f3d3639230491e8eb8b6120ec83f0797ef9504
 Section: 插件
 Description: ReachPlayer便捷访问音乐专辑
 Author: 苏苏
@@ -1029,10 +1083,10 @@ Pre-Depends: rootless-compat (>= 0.9)
 Depends: mobilesubstrate (>= 0.9.5000)
 Conflicts: com.tencent.themebox
 Filename: ./debs/主题盒子_2.0.6-1_iphoneos-arm64e.deb
-Size: 3964172
-MD5sum: afba4020104fd4768ffdcc3908613feb
-SHA1: f2e0305dcda30aedb8588a90d3206ea46283a24b
-SHA256: 4699296f81a66ed4c23ce55c1418cce70589b057b8af237f66205d7dba2cff01
+Size: 3964824
+MD5sum: bd67a664f3603e81bd12e74901d98d55
+SHA1: 347764a60ff73e648701ab319e3a2382baf71966
+SHA256: a32712848a93785be143d05e350eb187aa7fa889a6d59439e35e1daa21ceaeaa
 Section: 微信插件
 Description: 微信主题插件
 Author: Mao
@@ -1068,10 +1122,10 @@ Pre-Depends: rootless-compat (>= 0.9)
 Depends: mobilesubstrate (>= 0.9.5000)
 Conflicts: com.xx.qmxshook
 Filename: ./debs/七猫小说_1.0.3_iphoneos-arm64e.deb
-Size: 153808
-MD5sum: f43a1872525f2a839aa18b95ba60c3d3
-SHA1: 348c0bab627807d036e9337bc100be3a0bd50935
-SHA256: 47a599315b176cd045c84043fe661bcd4852ab4d9d63946348b008a563447788
+Size: 153676
+MD5sum: c248d3e758ad1261bd28e643a2484953
+SHA1: b4b9a1780b41818c45f2af0dea847397d8573fec
+SHA256: 80717420d39ced6c5ee22b449adf2540892b5444a447b3308cd1bc93b3c4bee8
 Section: 应用破解
 Description: 开通免广告权益
  * 仅支持越狱和 Bootstrap 环境
@@ -1167,6 +1221,67 @@ Author: 剑来
 Icon: https://s1.imagehub.cc/images/2025/02/28/f304f3a0a6ed71e8fb336e7ed1c09996.jpeg
 Name: SpringAnimation
 Sileodepiction: http://lai28.988456.xyz/depictions/native/lai28.springanimation/depiction.json
+
+Package: netskao.wechatpurifications
+Version: 4.2-7
+Architecture: iphoneos-arm64e
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 17133
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: firmware (>= 12.0), mobilesubstrate (>= 0.9.5000)
+Conflicts: netskao.wechatpurification
+Replaces: netskao.wechatpurification
+Provides: netskao.wechatpurification
+Filename: ./debs/微信净化_4.2-7_iphoneos-arm64e.deb
+Size: 12580568
+MD5sum: 4f6879deeaccd260901768a2b8141a16
+SHA1: 802ea79df6b18ae4010508c748bc42ddb6167315
+SHA256: 85c6e53b401608ee437fd40529e58cb2606a58ba7bd437165bfbc1b89928bf5c
+Section: 微信插件
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=wechatpurificationDp
+Description: 微信净化，还原聊天本质，干净的微信给你，仅支持8.0.29及以上版本，设置位于微信-设置
+Tag: purpose::extension
+Author: Netskao <admin@initnil.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=wechatpurificationDp
+Dev: netskao
+Icon: https://TrollStoreX.Github.io/sileodepiction/WechatPure/icon.png
+Name: 微信净化
+Sileodepiction: https://TrollStoreX.Github.io/sileodepiction/WechatPure/js.json
+Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: roothide
+Version: 0.0.9
+Architecture: iphoneos-arm64e
+Essential: yes
+Maintainer: roothide
+Installed-Size: 936
+Depends: libiosexec1 (>= 1.3.1-2)
+Filename: ./debs/roothide_0.0.9_iphoneos-arm64e.deb
+Size: 41268
+MD5sum: a902f974761ecfa45f0434955c1f13f3
+SHA1: c5373bd09e69ce72eb3fca2456fbb42603b1ed61
+SHA256: 4281931b0607be03425778bd8a93389130362382b0dcbbc1719f6080d5b278d3
+Section: System
+Priority: required
+Description: roothide core package
+Author: roothide
+Name: roothide core
+
+Package: rootless-compat
+Version: 1.8
+Architecture: iphoneos-arm64e
+Maintainer: roothide
+Installed-Size: 284
+Depends: com.roothide.patchloader (>= 0.0.4)
+Filename: ./debs/rootless-compat_1.8_iphoneos-arm64e.deb
+Size: 39428
+MD5sum: 808198c9fd1c597b61a24560c680294b
+SHA1: 1a0c278f8812003ffd939e80d06cab8d193cc655
+SHA256: 725ff8196e4e6bfeee7b3ee37678847c7412f2d7ef1beb5680ecb4e29a02a815
+Section: RootHide Patches
+Description: Compat Layer for Rootless Tweaks
+Author: roothide
+Name: rootless-compat
 
 Package: ru.domo.cocoatop64
 Version: 2.2.4
