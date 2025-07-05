@@ -317,6 +317,22 @@ Icon: https://axs66.github.io/repo/icon/switchtheme.png
 Name: 日月开关
 Sileodepiction: https://axs66.github.io/repo/sileodepiction/switchtheme/js.json
 
+Package: com.b1oody.ydypnoad
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: B1oody <1>
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: ./debs/com.b1oody.ydypnoad_0.0.1_iphoneos-arm64.deb
+Size: 2892
+MD5sum: 389721c40efaded53d4ec23b7acb5ae8
+SHA1: c2d51f8b93cbd1c21e9c7ea98e3b82f4c33ff41b
+SHA256: 0960c7646218376753e4934603d458fb43e6da9dd68bb9c59c57edb2cccf33e2
+Section: Tweaks
+Description: noad
+Author: B1oody <1>
+Name: 中国移动云盘noad
+
 Package: com.baiy.switchtheme
 Version: 1.0.0
 Architecture: iphoneos-arm64e
@@ -430,13 +446,13 @@ Version: 0.0.3
 Architecture: iphoneos-arm64e
 Maintainer: Brend0n <brendonjkding@126.com>
 Installed-Size: 168
-Pre-Depends: rootless-compat (>= 0.9)
+Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate
-Filename: ./debs/NoPassAfterRespring_0.0.3_iphoneos-arm64e.deb
-Size: 42584
-MD5sum: 2b1c133e2dd436cd13d28c40b502da7b
-SHA1: c474994a0488d776a6186fe977edd16b7a6960a5
-SHA256: 171ca1a7f3418412f45626c6d3ffd57bac332c195a23770c619aef53fa99d0b6
+Filename: ./debs/com.brend0n.nopassafterrespringsafe_0.0.3_iphoneos-arm64e.deb
+Size: 4868
+MD5sum: 5bf4ce5a6a5de5706502a0604dcd51fe
+SHA1: bcfa258a6ab23b0f09bd2ca76255f2be861ec8f7
+SHA256: b3c85cda3b7a2a478d9fc97c719a7c0421d9712370be4c9f51897e516b778ac3
 Section: Tweaks
 Description: Disables passcode after a respring. This version does NOT modify system file. It's safe to use. 在注销前是解锁状态的情况下，注销后自动跳过人脸或指纹识别到桌面。
 Author: Brend0n <brendonjkding@126.com>
@@ -447,13 +463,13 @@ Version: 0.0.3
 Architecture: iphoneos-arm64e
 Maintainer: Brend0n <brendonjkding@126.com>
 Installed-Size: 168
-Pre-Depends: rootless-compat(>= 0.9)
+Pre-Depends: rootless-compat (>= 0.9)
 Depends: mobilesubstrate
-Filename: ./debs/com.brend0n.nopassafterrespringsafe_0.0.3_iphoneos-arm64e.deb
-Size: 4868
-MD5sum: 5bf4ce5a6a5de5706502a0604dcd51fe
-SHA1: bcfa258a6ab23b0f09bd2ca76255f2be861ec8f7
-SHA256: b3c85cda3b7a2a478d9fc97c719a7c0421d9712370be4c9f51897e516b778ac3
+Filename: ./debs/NoPassAfterRespring_0.0.3_iphoneos-arm64e.deb
+Size: 42584
+MD5sum: 2b1c133e2dd436cd13d28c40b502da7b
+SHA1: c474994a0488d776a6186fe977edd16b7a6960a5
+SHA256: 171ca1a7f3418412f45626c6d3ffd57bac332c195a23770c619aef53fa99d0b6
 Section: Tweaks
 Description: Disables passcode after a respring. This version does NOT modify system file. It's safe to use. 在注销前是解锁状态的情况下，注销后自动跳过人脸或指纹识别到桌面。
 Author: Brend0n <brendonjkding@126.com>
@@ -500,15 +516,15 @@ Package: com.exile90.icleanerpro
 Version: 7.10.0
 Architecture: iphoneos-arm64e
 Maintainer: Ivano Bilenchi <support@ib-soft.net>
-Pre-Depends: rootless-compat (>= 0.9)
+Pre-Depends: rootless-compat(>= 0.9)
 Depends: firmware (>= 4.0), findutils, apt | apt7
 Conflicts: org.altervista.exilecom.icleaner
 Replaces: org.altervista.exilecom.icleaner
-Filename: ./debs/iCleaner_7.10.0_iphoneos-arm64e.deb
-Size: 1141964
-MD5sum: 0ff7fb50ee7eb2b6b45ef78d76ef0363
-SHA1: 85a48c6008d60f2070990be4549cf64cc279e61b
-SHA256: 99b2e5b11d24135feb0fc7adb52320357b65ad287612b1c625cc247f8ffdff99
+Filename: ./debs/com.exile90.icleanerpro_v7.10.0_iphoneos-arm64e.deb
+Size: 2752512
+MD5sum: 16a48d159289ab2eec13e9928b1dfc1e
+SHA1: 27ecc20e28821012ff612f7cd187a9233dc3b8d9
+SHA256: f0e3d29a27c35216d1bb28dc194eba8985fb39022c191be2f00cc6cc0069cc61
 Section: Utilities
 Homepage: http://ib-soft.net/icleaner
 Description: The first real iOS system cleanup and management utility
@@ -521,15 +537,15 @@ Package: com.exile90.icleanerpro
 Version: 7.10.0
 Architecture: iphoneos-arm64e
 Maintainer: Ivano Bilenchi <support@ib-soft.net>
-Pre-Depends: rootless-compat(>= 0.9)
+Pre-Depends: rootless-compat (>= 0.9)
 Depends: firmware (>= 4.0), findutils, apt | apt7
 Conflicts: org.altervista.exilecom.icleaner
 Replaces: org.altervista.exilecom.icleaner
-Filename: ./debs/com.exile90.icleanerpro_v7.10.0_iphoneos-arm64e.deb
-Size: 2752512
-MD5sum: 16a48d159289ab2eec13e9928b1dfc1e
-SHA1: 27ecc20e28821012ff612f7cd187a9233dc3b8d9
-SHA256: f0e3d29a27c35216d1bb28dc194eba8985fb39022c191be2f00cc6cc0069cc61
+Filename: ./debs/iCleaner_7.10.0_iphoneos-arm64e.deb
+Size: 1141964
+MD5sum: 0ff7fb50ee7eb2b6b45ef78d76ef0363
+SHA1: 85a48c6008d60f2070990be4549cf64cc279e61b
+SHA256: 99b2e5b11d24135feb0fc7adb52320357b65ad287612b1c625cc247f8ffdff99
 Section: Utilities
 Homepage: http://ib-soft.net/icleaner
 Description: The first real iOS system cleanup and management utility
@@ -576,14 +592,14 @@ Version: 1.2.1
 Architecture: iphoneos-arm64e
 Maintainer: Jonathan Winger-lang
 Installed-Size: 4148
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate, firmware(>=14.0), preferenceloader
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate, firmware (>= 14.0), preferenceloader
 Conflicts: com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33
-Filename: ./debs/com.jontelang.snapper3_1.2.1_iphoneos-arm64e.deb
-Size: 2269752
-MD5sum: 46e43781fd614e73dc8d0675fd4c2a1e
-SHA1: c8a7e10b475f120e17815e10e9aeecf91cdce414
-SHA256: bcd9e72c1b669e3065def90327a94fde2ddd93f01afb0fdf484a04d82ff558db
+Filename: ./debs/Snapper_1.2.1_iphoneos-arm64e.deb
+Size: 1159980
+MD5sum: 69b3e04fc17b437cafbc79be0940bae7
+SHA1: 153b766189bc3834714e90616d4e1cb6f289d80b
+SHA256: 085154c201e1358b53fc95c22bd48f34048262113a4bcd124e680db4d867e68e
 Section: Tweaks
 Description: Pin screenshots on the screen.
 Author: Jonathan Winger-lang
@@ -594,14 +610,14 @@ Version: 1.2.1
 Architecture: iphoneos-arm64e
 Maintainer: Jonathan Winger-lang
 Installed-Size: 4148
-Pre-Depends: rootless-compat (>= 0.9)
-Depends: mobilesubstrate, firmware (>= 14.0), preferenceloader
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware(>=14.0), preferenceloader
 Conflicts: com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33
-Filename: ./debs/Snapper_1.2.1_iphoneos-arm64e.deb
-Size: 1159980
-MD5sum: 69b3e04fc17b437cafbc79be0940bae7
-SHA1: 153b766189bc3834714e90616d4e1cb6f289d80b
-SHA256: 085154c201e1358b53fc95c22bd48f34048262113a4bcd124e680db4d867e68e
+Filename: ./debs/com.jontelang.snapper3_1.2.1_iphoneos-arm64e.deb
+Size: 2269752
+MD5sum: 46e43781fd614e73dc8d0675fd4c2a1e
+SHA1: c8a7e10b475f120e17815e10e9aeecf91cdce414
+SHA256: bcd9e72c1b669e3065def90327a94fde2ddd93f01afb0fdf484a04d82ff558db
 Section: Tweaks
 Description: Pin screenshots on the screen.
 Author: Jonathan Winger-lang
@@ -1092,13 +1108,13 @@ Version: 4.1.3
 Architecture: iphoneos-arm64e
 Maintainer: 苏苏
 Installed-Size: 3668
-Pre-Depends: rootless-compat(>= 0.9)
+Pre-Depends: rootless-compat (>= 0.9)
 Depends: mobilesubstrate
-Filename: ./debs/com.susu.reachplayer_4.1.3_iphoneos-arm64e-2.deb
-Size: 2800424
-MD5sum: de3bc475a644acdcd7b6574253d03263
-SHA1: 78c4147a7662d717f13864738e31ad63bf3b698d
-SHA256: e7492d55be023aaabf6850ef6c5b163a36bd6d56c37ef7c0ecba92ad31f0db25
+Filename: ./debs/ReachPlayer音乐专辑_4.1.3_iphoneos-arm64e.deb
+Size: 1296972
+MD5sum: 17b801350e1fb557ba18b1a19e1029ab
+SHA1: e8fb7cd174568bed324fb160f4f2f9d0488982e4
+SHA256: 45e1e088c325a5698ddc3e1b68f3d3639230491e8eb8b6120ec83f0797ef9504
 Section: 插件
 Description: ReachPlayer便捷访问音乐专辑
 Author: 苏苏
@@ -1111,13 +1127,13 @@ Version: 4.1.3
 Architecture: iphoneos-arm64e
 Maintainer: 苏苏
 Installed-Size: 3668
-Pre-Depends: rootless-compat (>= 0.9)
+Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate
-Filename: ./debs/ReachPlayer音乐专辑_4.1.3_iphoneos-arm64e.deb
-Size: 1296972
-MD5sum: 17b801350e1fb557ba18b1a19e1029ab
-SHA1: e8fb7cd174568bed324fb160f4f2f9d0488982e4
-SHA256: 45e1e088c325a5698ddc3e1b68f3d3639230491e8eb8b6120ec83f0797ef9504
+Filename: ./debs/com.susu.reachplayer_4.1.3_iphoneos-arm64e-2.deb
+Size: 2800424
+MD5sum: de3bc475a644acdcd7b6574253d03263
+SHA1: 78c4147a7662d717f13864738e31ad63bf3b698d
+SHA256: e7492d55be023aaabf6850ef6c5b163a36bd6d56c37ef7c0ecba92ad31f0db25
 Section: 插件
 Description: ReachPlayer便捷访问音乐专辑
 Author: 苏苏
@@ -1208,13 +1224,13 @@ Package: com.yourepo.0xash.talkatonenoads
 Version: 4.2.0
 Architecture: iphoneos-arm64e
 Maintainer: Ash <krylov0@outlook.com>
-Pre-Depends: rootless-compat(>= 0.9)
+Pre-Depends: rootless-compat (>= 0.9)
 Depends: mobilesubstrate
-Filename: ./debs/com.yourepo.0xash.talkatonenoads_4.2.0_iphoneos-arm64e.deb
-Size: 4306
-MD5sum: 5956e5fdb8664393b826fc859f90bce5
-SHA1: 1623335650828301f288bd0c1aeef666633d66b0
-SHA256: 5045bde72f0fdfab8ef8589f67bbdb5ea3eca22c642da08369640a381c27435f
+Filename: ./debs/Talkatone_4.2.0_iphoneos-arm64e.deb
+Size: 42040
+MD5sum: 0660f626cb3cf6f9ad0b255509e0fe67
+SHA1: 8931162eabdb5897b895cd2ae4147ba1cade8aed
+SHA256: 154d890755752e303c5ad58bb12c98c41033841709c60b2100a141130d727dc5
 Section: Tweaks
 Description: 开启广告订阅功能，移除两个占位的banner
 Author: gior007 <krylov0@outlook.com>
@@ -1224,13 +1240,13 @@ Package: com.yourepo.0xash.talkatonenoads
 Version: 4.2.0
 Architecture: iphoneos-arm64e
 Maintainer: Ash <krylov0@outlook.com>
-Pre-Depends: rootless-compat (>= 0.9)
+Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate
-Filename: ./debs/Talkatone_4.2.0_iphoneos-arm64e.deb
-Size: 42040
-MD5sum: 0660f626cb3cf6f9ad0b255509e0fe67
-SHA1: 8931162eabdb5897b895cd2ae4147ba1cade8aed
-SHA256: 154d890755752e303c5ad58bb12c98c41033841709c60b2100a141130d727dc5
+Filename: ./debs/com.yourepo.0xash.talkatonenoads_4.2.0_iphoneos-arm64e.deb
+Size: 4306
+MD5sum: 5956e5fdb8664393b826fc859f90bce5
+SHA1: 1623335650828301f288bd0c1aeef666633d66b0
+SHA256: 5045bde72f0fdfab8ef8589f67bbdb5ea3eca22c642da08369640a381c27435f
 Section: Tweaks
 Description: 开启广告订阅功能，移除两个占位的banner
 Author: gior007 <krylov0@outlook.com>
@@ -1259,14 +1275,14 @@ Version: 1.3.5
 Architecture: iphoneos-arm64e
 Maintainer: Traurige <hello@traurige.dev>
 Installed-Size: 432
-Pre-Depends: rootless-compat (>= 0.9)
+Pre-Depends: rootless-compat(>= 0.9)
 Depends: firmware (>= 13.0), mobilesubstrate, preferenceloader
 Conflicts: love.litten.batterybuddy
-Filename: ./debs/BatteryBuddy_1.3.5_iphoneos-arm64e.deb
-Size: 76556
-MD5sum: 048921ee090fa31fdf57c11e5338f7c7
-SHA1: 4ca270342a08535d06d8efb25a79e7cdd88fe6d9
-SHA256: 4ebba65c66b290f152f150e4bd58297dd6d8e8f929a5f87e501f49023f7c1e71
+Filename: ./debs/dev.traurige.batterybuddy_1.3.5_iphoneos-arm64e.deb
+Size: 46564
+MD5sum: c9d27460abd14c48a4edbfbb38e5d4a0
+SHA1: 2d3530a34c464c425904ce5e00d154bd2fa45f00
+SHA256: 98c7f6d5179ee3ab36b7307c6dd722634924ddf99ecc23c8b483f2e4d5f7fc19
 Section: Tweaks
 Description: Battery indicator, but cute
 Author: Traurige & neilsardesai <hello@traurige.dev>
@@ -1277,14 +1293,14 @@ Version: 1.3.5
 Architecture: iphoneos-arm64e
 Maintainer: Traurige <hello@traurige.dev>
 Installed-Size: 432
-Pre-Depends: rootless-compat(>= 0.9)
+Pre-Depends: rootless-compat (>= 0.9)
 Depends: firmware (>= 13.0), mobilesubstrate, preferenceloader
 Conflicts: love.litten.batterybuddy
-Filename: ./debs/dev.traurige.batterybuddy_1.3.5_iphoneos-arm64e.deb
-Size: 46564
-MD5sum: c9d27460abd14c48a4edbfbb38e5d4a0
-SHA1: 2d3530a34c464c425904ce5e00d154bd2fa45f00
-SHA256: 98c7f6d5179ee3ab36b7307c6dd722634924ddf99ecc23c8b483f2e4d5f7fc19
+Filename: ./debs/BatteryBuddy_1.3.5_iphoneos-arm64e.deb
+Size: 76556
+MD5sum: 048921ee090fa31fdf57c11e5338f7c7
+SHA1: 4ca270342a08535d06d8efb25a79e7cdd88fe6d9
+SHA256: 4ebba65c66b290f152f150e4bd58297dd6d8e8f929a5f87e501f49023f7c1e71
 Section: Tweaks
 Description: Battery indicator, but cute
 Author: Traurige & neilsardesai <hello@traurige.dev>
