@@ -317,6 +317,22 @@ Icon: https://axs66.github.io/repo/icon/switchtheme.png
 Name: 日月开关
 Sileodepiction: https://axs66.github.io/repo/sileodepiction/switchtheme/js.json
 
+Package: com.b1oody.tyypnoad
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: B1oody <1>
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: ./debs/com.b1oody.tyypnoad_0.0.1_iphoneos-arm64.deb
+Size: 3174
+MD5sum: 12213819d6de333abb46486e44a6c954
+SHA1: 1a410b52c8ce014218694aa0472aeb5a9d8c7034
+SHA256: 1e8931cb08e333597b758605d59dd9146b1d9a8af972cecdd05e92dddc1075f0
+Section: Tweaks
+Description: noad
+Author: B1oody <1>
+Name: 天翼云盘noad
+
 Package: com.b1oody.ydypnoad
 Version: 0.0.1
 Architecture: iphoneos-arm64
