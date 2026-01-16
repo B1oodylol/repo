@@ -864,23 +864,6 @@ Depiction: k
 Icon: https://s1.imagehub.cc/images/2025/01/10/0458f7f83190b2b17070085595312c2b.jpeg
 Name: NetworkManagerReborn
 
-Package: com.niceios.aperture-roothide
-Version: 1.0.3.1-2
-Architecture: iphoneos-arm64e
-Maintainer: niceios
-Installed-Size: 8824
-Depends: mobilesubstrate, com.niceios.nicehelper-roothide (>= 6.5), preferenceloader
-Filename: ./debs/Nice真灵动岛【Roothide】_1.0.3.1-2_iphoneos-arm64e.deb
-Size: 2454804
-MD5sum: e318ea9bd7a240f3e6163a59cf34f3f4
-SHA1: 9403689848bcac6752ef3f04932f7c80c0b50a60
-SHA256: 6fe18c83537be11a6797f5ab92ac6667fc6f4da97056ba28508c556cc5f7f31f
-Section: Tweaks
-Description: 一款真正的灵动岛插件,不止通知上岛.
-Author: niceios
-Name: Nice真灵动岛【Roothide】
-Sponsor: niceios
-
 Package: com.nx.stheno
 Version: 77.1.4.7
 Architecture: iphoneos-arm64e
@@ -1041,22 +1024,6 @@ Depiction: https://github.com/roothide/RootHidePatcher
 Icon: https://github.com/roothide/RootHidePatcher/blob/master/derootifier-2-modified.png?raw=true
 Name: RootHide Patcher
 Support: https://github.com/roothide/RootHidePatcher
-
-Package: com.roothide.patchloader
-Version: 0.0.6-7
-Architecture: iphoneos-arm64e
-Maintainer: roothide
-Installed-Size: 132
-Filename: ./debs/PatchLoader_0.0.6-7_iphoneos-arm64e.deb
-Size: 3492
-MD5sum: 10eccf40c9a21156b671e31955608b3f
-SHA1: 6ff1796805f51fcc44caa1eb5cc0ff98a37a5e5a
-SHA256: cc725c0ea4240dcc2a1fd06653462c12d7c5054bc633a6a99b344206a89e4048
-Section: System
-Description: RootHide Dynamic Patches Loader
-Tag: role::developer
-Author: roothide
-Name: PatchLoader
 
 Package: com.skypain.cclocation
 Version: 1.1.0-1
