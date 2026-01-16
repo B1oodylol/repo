@@ -1,3 +1,19 @@
+Package: apt.llld.systeminfo
+Version: 2.7.2-3
+Architecture: iphoneos-arm64e
+Maintainer: 来了老弟
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: ./debs/apt.llld.systeminfo_2.7.2-3_iphoneos-arm64e.deb
+Size: 375648
+MD5sum: 470f10d3a5adcc91e2575266497b03a4
+SHA1: 26c3a02a4141e90655d539092d22f1e5b953b981
+SHA256: 110eae9ed72f2bb471d923045adc48aeaa823730608cfeb990c690f382736f6f
+Section: rootless修复插件
+Description: Display all system information of iOS。显示 iOS 所有系统信息，不用装Legacy arm64e Support_________仅测试，有问题请卸载
+Author: ARX8x 来了老弟
+Name: System Info 系统信息-rootless
+
 Package: cn.Bswbw.fixset
 Version: 1.1
 Architecture: iphoneos-arm64e
@@ -282,6 +298,27 @@ Description: Display your touch interactions!
 Author: Lessica <82flex@gmail.com>
 Name: Touch-Viz
 
+Package: com.anthopak.appaze3
+Version: 1.0.1
+Architecture: iphoneos-arm64e
+Maintainer: AnthoPak <anthopakdev@gmail.com>
+Installed-Size: 1802
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.15), firmware (>= 15.0)
+Conflicts: com.anthopak.appaze, com.anthopak.appaze2
+Filename: ./debs/com.anthopak.appaze3_1.0.1_iphoneos-arm64e.deb
+Size: 936266
+MD5sum: aa95d5fe33004ba73ba5bf6d9017be78
+SHA1: 42476f12f178fa94452d0d5003e30a011535f5c5
+SHA256: c7424b39a5c3a7641e3538005e7a7c1ee67fb1675aee678cf7aaa0f5eaf3070e
+Section: Tweaks
+Description: Customize up to 30 settings for each app, in a clean and friendly UI, easily accessible!
+Tag: cydia::commercial, compatible_min::ios15.0
+Author: AnthoPak <anthopakdev@gmail.com>
+Depiction: https://chariz.com/buy/appaze3
+Icon: https://img.chariz.cloud/icon/appaze3/icon@3x.png
+Name: Appaze 3
+
 Package: com.axs.switchtheme
 Version: 1.0.0
 Architecture: iphoneos-arm64e
@@ -403,6 +440,40 @@ Description: 分屏，不必太复杂，一切从简即可。
 Author: be-huge
 Name: floatingView
 
+Package: com.be-huge.floating-view
+Version: 1.5.8-5
+Architecture: iphoneos-arm64e
+Maintainer: be-huge
+Installed-Size: 3360
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Filename: ./debs/com.be-huge.floating-view_1.5.8-5_iphoneos-arm64e.deb
+Size: 1761824
+MD5sum: 6bdcb61c0e1265eaec48267e2355348a
+SHA1: 72eb1ed3dfb8953be3a1eeaa5c0ef5925c2706d4
+SHA256: 43bae3ea3b16915fa1bd26b2ad2e3623853240af80a119c50091aeab6968ed35
+Section: Tweaks
+Description: 分屏，不必太复杂，一切从简即可。
+Author: be-huge
+Name: floatingView
+
+Package: com.be-huge.tie-gesture-advance
+Version: 1.1.1
+Architecture: iphoneos-arm64e
+Maintainer: be-huge
+Installed-Size: 1256
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Filename: ./debs/com.be-huge.tie-gesture-advance_1.1.1_iphoneos-arm64e.deb
+Size: 319948
+MD5sum: c686c7a83793c89448d66f25368e2c80
+SHA1: 0bb2b669596d2b22328cf10d9db451919e0682e9
+SHA256: 39020082fa065292fb1bf46e55e8f3f52da8c9b62ccd913ee8cc04fddedf5890
+Section: Tweaks
+Description: 手势插件，一切从简即可。
+Author: be-huge
+Name: TieGesture-rootless(收费版)
+
 Package: com.be-huge.wechat-pop-vcs
 Version: 0.0.3
 Architecture: iphoneos-arm64e
@@ -511,6 +582,27 @@ Description: 控制中心快速启用或禁用其中一张SIM卡。
 Author: Netskao
 Icon: https://s1.imagehub.cc/images/2025/01/10/0458f7f83190b2b17070085595312c2b.jpeg
 Name: CCSIM
+
+Package: com.cydiageek.morelinesnotifications
+Version: 1.0.5
+Architecture: iphoneos-arm64e
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 178
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware (>= 8.0)
+Filename: ./debs/com.cydiageek.morelinesnotifications_1.0.5_iphoneos-arm64e.deb
+Size: 6354
+MD5sum: 97237439a65db4d77421e33d688fe80a
+SHA1: 83b3df2a72e13cffece87e410aad99564940333b
+SHA256: e27f1e333173f28d599e86893662ab630d93675e0b016bb361576cf83ebcfb31
+Section: 插件
+Priority: optional
+Description: 为通知增加更多的行，显示更多的通知！
+Author: CydiaGeek <lucaluca86@aol.com>
+Dev: lucaluca86
+Icon: https://s1.imagehub.cc/images/2025/01/02/7dac6febf5f38720ca04e1e565bc6a2e.jpeg
+Name: MoreLinesNotifications
+Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: com.exile90.icleanerpro
 Version: 7.10.0
@@ -718,6 +810,23 @@ Icon: https://TrollStoreX.Github.io/sileodepiction/WeChatNotiAvatar/qq.png
 Name: QQNotiAvatar QQ头像
 Sileodepiction: https://TrollStoreX.Github.io/sileodepiction/WeChatNotiAvatar/jss.json
 
+Package: com.netskao.storeswitchaccounts
+Version: 1.1-4
+Architecture: iphoneos-arm64e
+Maintainer: Nets
+Installed-Size: 460
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: ./debs/com.netskao.storeswitchaccounts_1.1-4_iphoneos-arm64e.deb
+Size: 137532
+MD5sum: f2dcf53cba013f2fd455659ac2e8cae2
+SHA1: fb875657ebed88322c1e438bdb2810ffaee21527
+SHA256: d3377d047eb3659772a317ecd326093623466f85ea835150a51fdde1569ea9b1
+Section: Netskao-Tweaks
+Description: Conveniently switch between logged-in accounts, long press the desktop AppStore icon to switch
+Author: Netskao
+Name: StoreSwitchAccounts
+
 Package: com.netskao.wechatnotiavatars
 Version: 1.2-5
 Architecture: iphoneos-arm64e
@@ -772,6 +881,22 @@ Author: niceios
 Name: Nice真灵动岛【Roothide】
 Sponsor: niceios
 
+Package: com.nx.stheno
+Version: 77.1.4.7
+Architecture: iphoneos-arm64e
+Maintainer: Crassna
+Installed-Size: 1912
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 16.1)
+Filename: ./debs/com.nx.stheno_77.1.4.7_iphoneos-arm64e.deb
+Size: 359898
+MD5sum: 15f515e1dcad2f2e330afee81d91497a
+SHA1: 377eea9cb311ca4122a660b15a1756deae928c80
+SHA256: 76dba0afdab98f6154eadd0312d68b03af81a0aa78294818c855a54db687e672
+Section: Tweaks
+Description: Medusa!
+Author: Crassna
+Name: Stheno
+
 Package: com.opa334.choicy
 Version: 1.5-1
 Architecture: iphoneos-arm64e
@@ -788,6 +913,24 @@ Description: Advanced Tweak Configuration!
 Author: opa334 <opa334@protonmail.com>
 Depiction: https://opa334.github.io/depic/Choicy/index.html
 Name: Choicy
+
+Package: com.p2kdev.tinge
+Version: 1.2.2
+Architecture: iphoneos-arm64e
+Maintainer: P2KDev <p2kdev@gmail.com>
+Installed-Size: 436
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0),mobilesubstrate,preferenceloader,org.thebigboss.libcolorpicker
+Filename: ./debs/com.p2kdev.tinge_1.2.2_iphoneos-arm64e-1.deb
+Size: 50852
+MD5sum: 80417c254675b0e2941a92b44bad5c5a
+SHA1: 8f221101fd557db469ae1a861e580b7230fea334
+SHA256: 315c0b02b5736922f78ef1ae1c36fb71a9571adddd1e6035fa57d60d8ccee35c
+Section: Tweaks
+Description: Color your badges with Perfection!
+Author: P2KDev <p2kdev@gmail.com>
+Icon: file:///Library/PreferenceBundles/TingePrefs.bundle/Icon@2x.png
+Name: Tinge
 
 Package: com.ps.smoothcursorios13
 Version: 0.0.1
@@ -976,6 +1119,23 @@ Icon: https://i.postimg.cc/ry1s499R/icon-3x.png
 Name: SettingsRevamp
 Sileodepiction: https://sopppra.mooo.com/depictions/com.sop.settingsrevamp.json
 
+Package: com.squidforce.moreactionsforappicon
+Version: 1.1.0
+Architecture: iphoneos-arm64e
+Maintainer: SquidForce
+Installed-Size: 172
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: ./debs/com.squidforce.moreactionsforappicon_1.1.0_iphoneos-arm64e.deb
+Size: 11064
+MD5sum: 6f242c4312049c48e4d8cc2b7d35975d
+SHA1: 250f46582f4537d62b5366bde7883f1f7753874b
+SHA256: 534f703aaffa6db1a050f3e17c10f9c4e6ff28e3bba0ab6099946012cd016115
+Section: Tweaks
+Description: 添加“应用标识符”，“应用设置”和“在AppStore中查看”动作，并去掉多余动作。More actions for AppIcon's 3D Touch menu, and less duplicated actions.
+Author: SquidForce
+Name: 应用3DTouch菜单
+
 Package: com.susu.fuckwechatadss
 Version: 1.0.2
 Architecture: iphoneos-arm64e
@@ -1034,6 +1194,42 @@ Author: 苏苏
 Icon: https://www.susubaby.top/json/ReachPlayer/icon.png
 Name: ReachPlayer音乐专辑
 Sileodepiction: https://www.susubaby.top/json/ReachPlayer/js.json
+
+Package: com.susu.reachplayer
+Version: 5.0.0
+Architecture: iphoneos-arm64e
+Maintainer: 苏苏
+Installed-Size: 3636
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: ./debs/com.susu.reachplayer_5.0.0_iphoneos-arm64e.deb
+Size: 2818784
+MD5sum: 0d36d8798bd929790d52aebc1330d343
+SHA1: 3fb56e272a8a4c866779a57aa3f5cf42961a5a92
+SHA256: f1a07dbc6e914de74fefad965b6090daaf2a1ed316afdda4f1e63a461d4b4d55
+Section: 插件
+Description: ReachPlayer便捷访问音乐专辑
+Author: 苏苏
+Icon: https://www.susubaby.top/json/ReachPlayer/icon.png
+Name: ReachPlayer音乐专辑
+Sileodepiction: https://www.susubaby.top/json/ReachPlayer/js.json
+
+Package: com.thermal.hook
+Version: 1.0.0
+Architecture: iphoneos-arm64e
+Maintainer: ash
+Installed-Size: 100
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: ./debs/com.thermal.hook_1.0.0_iphoneos-arm64e.deb
+Size: 306636
+MD5sum: 0395fb658da4eff3096333566a9dbabe
+SHA1: 9822a05fa553e40d1a37d933cce8a037cd342555
+SHA256: 6776ba34fffe4f5e7faec7d233ed201bf8f46035f431314dfbb72d187fd0b79d
+Section: Tweaks
+Description: An awesome MobileSubstrate tweak!
+Author: aodmin & zqbb
+Name: iOSThermal
 
 Package: com.udevs.dockx
 Version: 2.6.2
