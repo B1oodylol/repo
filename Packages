@@ -319,6 +319,21 @@ Depiction: https://chariz.com/buy/appaze3
 Icon: https://img.chariz.cloud/icon/appaze3/icon@3x.png
 Name: Appaze 3
 
+Package: com.ash.mountfont
+Version: 1.0.3
+Architecture: iphoneos-arm64e
+Maintainer: ash
+Depends: firmware (>= 15.0), mobilesubstrate, com.tigisoftware.filza64bit
+Filename: ./debs/com.ash.mountfont_1.0.3_iphoneos-arm64e.deb
+Size: 4696
+MD5sum: cf672991c0686331c9919f1a4acdba0f
+SHA1: 4b5a12fb4ea800bdfd521c8bf3769e1628b334fa
+SHA256: 519a83ea895a6827b5b5fde6a3845ccdd53893f11dc5f23a2c2c92f7c27a1c90
+Section: System
+Description: Mount Font files from Filza
+Author: ash
+Name: Filza Font Mount Script
+
 Package: com.axs.switchtheme
 Version: 1.0.0
 Architecture: iphoneos-arm64e
@@ -883,6 +898,24 @@ Author: P2KDev <p2kdev@gmail.com>
 Icon: file:///Library/PreferenceBundles/TingePrefs.bundle/Icon@2x.png
 Name: Tinge
 
+Package: com.p2kdev.tinge
+Version: 1.2.2
+Architecture: iphoneos-arm64e
+Maintainer: P2KDev <p2kdev@gmail.com>
+Installed-Size: 436
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0),mobilesubstrate,preferenceloader,org.thebigboss.libcolorpicker
+Filename: ./debs/com.p2kdev.tinge_1.2.2_iphoneos-arm64e.deb
+Size: 50852
+MD5sum: 80417c254675b0e2941a92b44bad5c5a
+SHA1: 8f221101fd557db469ae1a861e580b7230fea334
+SHA256: 315c0b02b5736922f78ef1ae1c36fb71a9571adddd1e6035fa57d60d8ccee35c
+Section: Tweaks
+Description: Color your badges with Perfection!
+Author: P2KDev <p2kdev@gmail.com>
+Icon: file:///Library/PreferenceBundles/TingePrefs.bundle/Icon@2x.png
+Name: Tinge
+
 Package: com.ps.smoothcursorios13
 Version: 0.0.1
 Architecture: iphoneos-arm64e
@@ -1111,6 +1144,23 @@ Author: 苏苏
 Icon: https://www.susubaby.top/json/ReachPlayer/icon.png
 Name: ReachPlayer音乐专辑
 Sileodepiction: https://www.susubaby.top/json/ReachPlayer/js.json
+
+Package: com.susu.springanimation
+Version: 0.0.2-1+debug
+Architecture: iphoneos-arm64e
+Maintainer: 苏苏
+Installed-Size: 168
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.susu.springanimation_0.0.2-1+debug_iphoneos-arm64e.deb
+Size: 4674
+MD5sum: 91becbc7925e69269f94662d6ed4ddf7
+SHA1: ad00b3928933aa0f851c8aba5ced5e174db7fd9f
+SHA256: 0345142bc73aad8826d2c841f98f6519209b6d39f8588e6f7c871d62938fc3ac
+Section: 插件
+Description: 神奇的交互动画
+Author: 苏苏
+Name: SpringAnimation
 
 Package: com.thermal.hook
 Version: 1.0.0
@@ -1345,6 +1395,25 @@ Icon: https://TrollStoreX.Github.io/sileodepiction/WechatPure/icon.png
 Name: 微信净化
 Sileodepiction: https://TrollStoreX.Github.io/sileodepiction/WechatPure/js.json
 Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: org.thebigboss.libcolorpicker
+Version: 1.6.9.2
+Architecture: iphoneos-arm64e
+Maintainer: Bailey Seymour
+Installed-Size: 304
+Depends: firmware (>= 6.0)
+Replaces: me.nepeta.libcolorpicker, ws.hbang.alderis
+Provides: me.nepeta.libcolorpicker, ws.hbang.alderis
+Filename: ./debs/org.thebigboss.libcolorpicker_1.6.9.2_iphoneos-arm64e.deb
+Size: 44668
+MD5sum: 4da5fb75174eb83cb82ad59f22f233f9
+SHA1: 89c034d5c187697b5d460d998a1b94e1749ab298
+SHA256: f20085da3ebd4af4b5415891c8991be674f8ba2357e799b6c7e2e26ffaf7f6d0
+Section: System
+Description: An awesome library of some sort!!
+Tag: role::developer
+Author: Bailey Seymour
+Name: libcolorpicker
 
 Package: plutil
 Version: 0.2.2+1
