@@ -48,6 +48,22 @@ Depiction: https://repo.lenglengyu.top/packageInfo/fixset.html
 Name: FixSet
 Sileodepiction: https://repo.lenglengyu.top/packageInfo/fixsetsileo
 
+Package: cn.fkj233.watchfix
+Version: 2.0.1
+Architecture: iphoneos-arm64e
+Maintainer: 577FKJ
+Installed-Size: 4632
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: ./debs/cn.fkj233.watchfix_2.0.1_iphoneos-arm64e.deb
+Size: 607420
+MD5sum: 1cd29a205fb3f67e999bc4aa539d7b6e
+SHA1: 698777dbd0f38c10c74f195196517a922b0f183f
+SHA256: c5ee35d20891b7c1dd9e7a6149014340169258d09bd7281c55e68d1762106749
+Section: Tweaks
+Description: Fix Apple watch connection issues
+Author: 577FKJ
+Name: WatchFix
+
 Package: cn.octoforce.copyvault
 Version: 1.9.0
 Architecture: iphoneos-arm64e
