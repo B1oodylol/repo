@@ -240,6 +240,24 @@ Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.hello.memorystatus.png
 Name: Hello Memory Status
 Sileodepiction: https://rootless.002599.xyz/web/cn.zqbb.hello.memorystatus
 
+Package: cn.zqbb.hello.qactions
+Version: 1.3.0-1
+Architecture: iphoneos-arm64e
+Maintainer: zqbb
+Installed-Size: 2480
+Depends: mobilesubstrate (>= 0.9.5000) , firmware (>= 15.0), preferenceloader, com.opa334.altlist
+Filename: ./debs/cn.zqbb.hello.qactions_1.3.0-1_iphoneos-arm64e.deb
+Size: 667614
+MD5sum: 6b8fc0e2953b20640a2b381f76cc4584
+SHA1: 4325f8290bb9e673f7229aa29d9ab0a4d481fe66
+SHA256: e575276b1d15067be1f18b81001a7785a53c8caf25d1f6eff4218d44469682d0
+Section: Tweaks
+Description: 通过锁屏界面的手电筒和相机快速调用指定APP快捷操作，体验一键直达。
+Author: zqbb
+Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.hello.qactions
+Name: Hello QActions
+Sileodepiction: https://rootless.002599.xyz/web/cn.zqbb.hello.qactions
+
 Package: cn.zqbb.holdcpu
 Version: 2.3.4-6
 Architecture: iphoneos-arm64e
