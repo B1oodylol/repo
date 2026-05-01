@@ -97,6 +97,25 @@ Author: SquidForce, Backup
 Name: CopyVault(激活码版)
 Sileodepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.copyvault/depiction.json
 
+Package: cn.octoforce.squidextender
+Version: 3.7.4
+Architecture: iphoneos-arm64e
+Maintainer: SquidForce, Backup
+Installed-Size: 9988
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, com.opa334.libsandy
+Conflicts: com.squidforce.squidextender
+Filename: ./debs/cn.octoforce.squidextender_3.7.4_iphoneos-arm64e-3.deb
+Size: 6854386
+MD5sum: f71ded2466e2695e60b67115f67d96bc
+SHA1: 40c0cea2a3c53bc6b59c4e54d8b92a3afe4f5fdf
+SHA256: 5e905a787246e4cf4d3cce51cae78b45167cf139e25887c70d21d3bf4e6012de
+Section: Tweaks
+Description: 激活码用户或需要激活码的用户安装这个，非激活码用户不要安装！！Do not install if you do not have an activation code!!! Extend your keyboard to be more POWERFULL!
+Author: SquidForce, Backup
+Name: SquidExtender(激活码版)
+Sileodepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.squidextender/depiction.json
+
 Package: cn.octoforce.squidgesturepro
 Version: 2.7.6-1
 Architecture: iphoneos-arm64e
@@ -264,25 +283,6 @@ Author: zqbb
 Name: Hello 3Q
 Sileodepiction: https://rootless.002599.xyz/web/cn.zqbb.stopautolaunchapps
 
-Package: com.25mao.doutu.rootlesss
-Version: 3.1-6
-Architecture: iphoneos-arm64e
-Maintainer: Mao
-Pre-Depends: rootless-compat (>= 0.9)
-Depends: firmware (>= 5.0)
-Conflicts: com.25mao.doutu.rootless
-Filename: ./debs/斗图助手_3.1-6_iphoneos-arm64e.deb
-Size: 1090536
-MD5sum: 79678d70ed355ff191ee33cba04c7e4c
-SHA1: 04c8246a77f1342870ce0d8059e7cea718b68961
-SHA256: 2e8941219da38ddb73e087561b2a0eec28fcc84bdcd21879369f592b844c7050
-Section: 微信插件
-Description: 微信斗图助手插件
-Author: Mao
-Icon: https://TrollStoreX.Github.io/sileodepiction/Doutu/icon.png
-Name: 斗图助手
-Sileodepiction: https://TrollStoreX.Github.io/sileodepiction/Doutu/js.json
-
 Package: com.25mao.leftpan.roothide
 Version: 1.0-6
 Architecture: iphoneos-arm64e
@@ -299,26 +299,6 @@ Priority: optional
 Description: 左滑返回上一页面
 Author: Mao
 Name: 左滑返回(Roothide)
-
-Package: com.25mao.miyou.rootlesss
-Version: 3.8-4
-Architecture: iphoneos-arm64e
-Maintainer: admin@25mao.com
-Pre-Depends: rootless-compat (>= 0.9)
-Depends: firmware (>= 5.0)
-Conflicts: com.25mao.miyou.rootless
-Filename: ./debs/微信助手_3.8-4_iphoneos-arm64e.deb
-Size: 9199212
-MD5sum: a46b273c6f99b322d37e31e1315c4ebd
-SHA1: 8667e06f82eb5a15adc53ab8709b856300f21b75
-SHA256: d8f5ecfab07b272567a25ead26cdb5d0130f3d1ab9c36bb904e432f850fd1956
-Section: 微信插件
-Priority: optional
-Description: 微信多功能插件（密友）
-Author: Mao
-Icon: https://TrollStoreX.Github.io/sileodepiction/mao/icon.png
-Name: 微信助手
-Sileodepiction: https://TrollStoreX.Github.io/sileodepiction/mao/js.json
 
 Package: com.25mao.wcplugins.rootlesss
 Version: 0.1-3
@@ -1276,33 +1256,6 @@ Section: Tweaks
 Description: Battery indicator, but cute
 Author: Traurige & neilsardesai <hello@traurige.dev>
 Name: BatteryBuddy
-
-Package: netskao.wechatpurifications
-Version: 4.2-7
-Architecture: iphoneos-arm64e
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 17133
-Pre-Depends: rootless-compat (>= 0.9)
-Depends: firmware (>= 12.0), mobilesubstrate (>= 0.9.5000)
-Conflicts: netskao.wechatpurification
-Replaces: netskao.wechatpurification
-Provides: netskao.wechatpurification
-Filename: ./debs/微信净化_4.2-7_iphoneos-arm64e.deb
-Size: 12580568
-MD5sum: 4f6879deeaccd260901768a2b8141a16
-SHA1: 802ea79df6b18ae4010508c748bc42ddb6167315
-SHA256: 85c6e53b401608ee437fd40529e58cb2606a58ba7bd437165bfbc1b89928bf5c
-Section: 微信插件
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=wechatpurificationDp
-Description: 微信净化，还原聊天本质，干净的微信给你，仅支持8.0.29及以上版本，设置位于微信-设置
-Tag: purpose::extension
-Author: Netskao <admin@initnil.com>
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=wechatpurificationDp
-Dev: netskao
-Icon: https://TrollStoreX.Github.io/sileodepiction/WechatPure/icon.png
-Name: 微信净化
-Sileodepiction: https://TrollStoreX.Github.io/sileodepiction/WechatPure/js.json
-Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: org.thebigboss.libcolorpicker
 Version: 1.6.9.2
