@@ -141,6 +141,24 @@ Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.fix120hz
 Name: Hello 120Hz
 Sileodepiction: https://rootless.002599.xyz/web/cn.zqbb.fix120hz
 
+Package: cn.zqbb.hello.memorystatus
+Version: 3.6.0-2
+Architecture: iphoneos-arm64e
+Maintainer: zqbb
+Installed-Size: 10864
+Depends: mobilesubstrate (>= 0.9.5000) , firmware (>= 14.0), preferenceloader, launchctl
+Filename: ./debs/cn.zqbb.hello.memorystatus_3.6.0-2_iphoneos-arm64e.deb
+Size: 2987162
+MD5sum: 7dd5dfae6a2e51fbe6497ae4371173fb
+SHA1: 1b47306d9105f0dc223a61273e1f79ef1f3ce362
+SHA256: ac8bde17876ed3e2546a944f6c73fd51ec3ad270aabc32b2a9888fa709da1121
+Section: Tweaks
+Description: Set memorystatus to avoid being killed by the system
+Author: zqbb
+Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.hello.memorystatus.png
+Name: Hello Memory Status
+Sileodepiction: https://rootless.002599.xyz/web/cn.zqbb.hello.memorystatus
+
 Package: cn.zqbb.holdcpu
 Version: 2.3.4-6
 Architecture: iphoneos-arm64e
