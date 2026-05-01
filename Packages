@@ -662,6 +662,25 @@ Description: AppTools for iOS15-16 Roothide
 Author: aReo
 Name: AppTools15-16(Roothide)
 
+Package: com.hang.kaiguan
+Version: 9.9
+Architecture: iphoneos-arm64e
+Maintainer: 航
+Installed-Size: 660
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 14.0), mobilesubstrate
+Filename: ./debs/com.hang.kaiguan_9.9_iphoneos-arm64e.deb
+Size: 102712
+MD5sum: a0469eec284cd30b76359bd4a4491495
+SHA1: f4d0f29a60bb515364999a8b3971333236332a89
+SHA256: 043ef0a3a6a1eded919a13b27b1278c616d3db5a7e3e609fc618bdf2bf82be69
+Section: Tweaks
+Description: 简单的开关
+Author: 航
+Depiction: https://pic1.imgdb.cn/item/69d21338441d1611010f7e81.jpg
+Icon: https://pic1.imgdb.cn/item/69d21338441d1611010f7e81.jpg
+Name: 航の开关
+
 Package: com.hitori.misaki
 Version: 2.2
 Architecture: iphoneos-arm64e
