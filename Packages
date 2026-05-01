@@ -79,6 +79,22 @@ Description: Prevent finger fatigue. It will automatically continue when you sli
 Author: pxcex
 Name: AutoScroll-roothide
 
+Package: cn.llld.shelly
+Version: 0.0.2
+Architecture: iphoneos-arm64e
+Maintainer: 来了老弟
+Installed-Size: 200
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/cn.llld.shelly_0.0.2_iphoneos-arm64e.deb
+Size: 14524
+MD5sum: f722a50ffc4127287f3d34f0966fb965
+SHA1: 9e467f5952191063accab35bd8efa7a22239b693
+SHA256: dec79265edfe41acc25a6abe46b27db65128235c102f9a805ac00e7971f1b623
+Section: roothide汉化补丁
+Description: Shelly--(roothide)简体中文包
+Author: 来了老弟 h_h_x_t
+Name: shelly汉化-roothide
+
 Package: cn.octoforce.copyvault
 Version: 1.9.0
 Architecture: iphoneos-arm64e
