@@ -1,0 +1,31 @@
+name: Auto Update Repo Index
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - 'debs/**'
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Generate Packages index
+        run: |
+          dpkg-scanpackages -m ./debs /dev/null > Packages
+          bzip2 -kf Packages
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git add Packages Packages.bz2
+          if git diff --staged --quiet; then
+            echo "索引无变化，跳过提交"
+          else
+            git commit -m "Auto-update index [skip ci]"
+            git push
+          fi
