@@ -380,22 +380,6 @@ Description: Just a single mute icon on the status bar of iOS.
 Author: 82Flex <82flex@gmail.com>
 Name: Single Mute
 
-Package: com.82flex.touchvis
-Version: 4.0.1
-Architecture: iphoneos-arm64e
-Maintainer: Lessica <82flex@gmail.com>
-Installed-Size: 4360
-Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
-Filename: ./debs/Touch-Viz_4.0.1_iphoneos-arm64e.deb
-Size: 915736
-MD5sum: 6ed242d6d0d64f27b78aa307dd393ea1
-SHA1: 651c4056480119e55b131851ecac8fb95d33b034
-SHA256: 6f9d7ad714f44890da646309a6ec3a1f6580f1bee39f757b2ba5ef93a2e6de52
-Section: Tweaks
-Description: Display your touch interactions!
-Author: Lessica <82flex@gmail.com>
-Name: Touch-Viz
-
 Package: com.ali7assan.swipeselection.rootless
 Version: 2.0
 Architecture: iphoneos-arm64e
@@ -413,27 +397,6 @@ Description: 沿键盘滑动以移动光标并选择文本。
 Author: Kyle Howells
 Icon: https://s1.imagehub.cc/images/2025/04/02/4a8b1d82ef6cde19aafaa5793dbf1909.png
 Name: SwipeSelection
-
-Package: com.anthopak.appaze3
-Version: 1.0.1
-Architecture: iphoneos-arm64e
-Maintainer: AnthoPak <anthopakdev@gmail.com>
-Installed-Size: 1802
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.15), firmware (>= 15.0)
-Conflicts: com.anthopak.appaze, com.anthopak.appaze2
-Filename: ./debs/com.anthopak.appaze3_1.0.1_iphoneos-arm64e.deb
-Size: 936266
-MD5sum: aa95d5fe33004ba73ba5bf6d9017be78
-SHA1: 42476f12f178fa94452d0d5003e30a011535f5c5
-SHA256: c7424b39a5c3a7641e3538005e7a7c1ee67fb1675aee678cf7aaa0f5eaf3070e
-Section: Tweaks
-Description: Customize up to 30 settings for each app, in a clean and friendly UI, easily accessible!
-Tag: cydia::commercial, compatible_min::ios15.0
-Author: AnthoPak <anthopakdev@gmail.com>
-Depiction: https://chariz.com/buy/appaze3
-Icon: https://img.chariz.cloud/icon/appaze3/icon@3x.png
-Name: Appaze 3
 
 Package: com.ash.mountfont
 Version: 1.0.3
@@ -742,26 +705,6 @@ Depiction: http://ib-soft.net/depictions/?pkgId=com.exile90.icleanerpro
 Icon: file:///Applications/iCleaner.app/Icon.png
 Name: iCleaner Pro
 
-Package: com.hitori.misaki
-Version: 2.2
-Architecture: iphoneos-arm64e
-Maintainer: Hitori <mikasa-san@outlook.jp>
-Installed-Size: 1049
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate, preferenceloader, ws.hbang.alderis
-Filename: ./debs/com.hitori.misaki_2.2_iphoneos-arm64e-1.deb
-Size: 368602
-MD5sum: 297513146df435a80ede43e31a4ae4e3
-SHA1: 607bdf9ba68819e64d7bf5e30e52280baa647937
-SHA256: eefd1436239dd2894355f8cb2f4fb5b37ceaba57d8194b93d35f223945dd3e9b
-Section: Tweaks
-Description: Customize your iOS 15 & 16 experience with Misaki. customization options to make your iPhone truly yours.
-Tag: cydia::commercial, compatible_min::ios15.0
-Author: Hitori <mikasa-san@outlook.jp>
-Depiction: https://chariz.com/buy/misaki
-Icon: https://img.chariz.cloud/icon/misaki/icon@3x.png
-Name: Misaki
-
 Package: com.huayuarc.systemspeed
 Version: 1.0.0
 Architecture: iphoneos-arm64e
@@ -855,25 +798,6 @@ Author: lclrc(SquidForce)
 Icon: https://s1.imagehub.cc/images/2025/01/10/0458f7f83190b2b17070085595312c2b.jpeg
 Name: Hammer It
 
-Package: com.lenglengyu.bilibilihz-rootless
-Version: 0.0.1
-Architecture: iphoneos-arm64e
-Maintainer: lenglengyu <lenglengyu@126.com>
-Installed-Size: 244
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate
-Filename: ./debs/com.lenglengyu.bilibilihz-rootless_0.0.1_iphoneos-arm64e.deb
-Size: 89752
-MD5sum: 4b6e5f8ba2745aa1c5b7094c91893334
-SHA1: c2ea679c5361e0b743342e22bd867ba9f49edebf
-SHA256: d2c90996ed612f2daf40c3a0e5be568e330aad0285e73597f0fa3c7991b36fb0
-Section: Fugu15
-Description: 解锁大会员画质。
-Author: lenglengyu <lenglengyu@126.com>
-Depiction: https://repo.lenglengyu.top/packageInfo/bilibilihz.html
-Name: 哔哩哔哩解锁大会员画质-Rootless
-Sileodepiction: https://repo.lenglengyu.top/packageInfo/bilibilihzsileo
-
 Package: com.lns.pogrs
 Version: 0.4.0~prerelease3
 Architecture: iphoneos-arm64e
@@ -913,23 +837,6 @@ Author: Netskao
 Icon: https://TrollStoreX.Github.io/sileodepiction/WeChatNotiAvatar/qq.png
 Name: QQNotiAvatar QQ头像
 Sileodepiction: https://TrollStoreX.Github.io/sileodepiction/WeChatNotiAvatar/jss.json
-
-Package: com.netskao.storeswitchaccounts
-Version: 1.1-4
-Architecture: iphoneos-arm64e
-Maintainer: Nets
-Installed-Size: 460
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: firmware (>= 15.0), mobilesubstrate
-Filename: ./debs/com.netskao.storeswitchaccounts_1.1-4_iphoneos-arm64e.deb
-Size: 137532
-MD5sum: f2dcf53cba013f2fd455659ac2e8cae2
-SHA1: fb875657ebed88322c1e438bdb2810ffaee21527
-SHA256: d3377d047eb3659772a317ecd326093623466f85ea835150a51fdde1569ea9b1
-Section: Netskao-Tweaks
-Description: Conveniently switch between logged-in accounts, long press the desktop AppStore icon to switch
-Author: Netskao
-Name: StoreSwitchAccounts
 
 Package: com.netskao.wechatnotiavatars
 Version: 1.2-5
@@ -1387,24 +1294,6 @@ Section: Tweaks
 Description: Battery indicator, but cute
 Author: Traurige & neilsardesai <hello@traurige.dev>
 Name: BatteryBuddy
-
-Package: lai28.springanimation
-Version: 0.1-3+debug
-Architecture: iphoneos-arm64e
-Maintainer: 剑来
-Installed-Size: 168
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/SpringAnimation_0.1-3+debug.deb
-Size: 3500
-MD5sum: f73a23446ebf6ba4591b2feb871208c3
-SHA1: 90fa381e7fa6243803ed7545b2d18daf78353c60
-SHA256: d21cb844b63c657c1845b204859f0545746d687b6c536d76dea352577948faab
-Section: 系统增强
-Description: 桌面交互动画
-Author: 剑来
-Icon: https://s1.imagehub.cc/images/2025/02/28/f304f3a0a6ed71e8fb336e7ed1c09996.jpeg
-Name: SpringAnimation
-Sileodepiction: http://lai28.988456.xyz/depictions/native/lai28.springanimation/depiction.json
 
 Package: netskao.wechatpurifications
 Version: 4.2-7
