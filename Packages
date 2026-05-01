@@ -590,26 +590,6 @@ Description: 手势插件，一切从简即可。
 Author: be-huge
 Name: TieGesture-rootless(收费版)
 
-Package: com.be-huge.wechat-pop-vcs
-Version: 0.0.3
-Architecture: iphoneos-arm64e
-Maintainer: be-huge
-Installed-Size: 232
-Pre-Depends: rootless-compat (>= 0.9)
-Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
-Conflicts: com.be-huge.wechat-pop-vc
-Filename: ./debs/微信全局右滑手势_0.0.3_iphoneos-arm64e.deb
-Size: 59892
-MD5sum: ce094a72471833b98cc99b43f03e44e6
-SHA1: dbba27304e4e1917cab4633660292abe25a2cac4
-SHA256: bcd6b28fa9578f341f56dcbf773c4fcb597a29b3d7ed6edf59a2dbe105758c81
-Section: 微信插件
-Description: 微信全局右滑手势，弥补官方只能屏幕侧边返回上一页局限性，提高用户体验
-Author: be-huge
-Icon: https://TrollStoreX.Github.io/sileodepiction/WeChatPopVC/icon.png
-Name: 微信全局右滑手势 WeChatPopVC
-Sileodepiction: https://TrollStoreX.Github.io/sileodepiction/WeChatPopVC/js.json
-
 Package: com.be-huge.wechat-push-msg-page
 Version: 0.0.5
 Architecture: iphoneos-arm64e
@@ -762,41 +742,6 @@ Depiction: http://ib-soft.net/depictions/?pkgId=com.exile90.icleanerpro
 Icon: file:///Applications/iCleaner.app/Icon.png
 Name: iCleaner Pro
 
-Package: com.flex2areo.apptools15roothide
-Version: 1.4.0
-Architecture: iphoneos-arm64e
-Maintainer: aReo
-Installed-Size: 2192
-Depends: mobilesubstrate
-Filename: ./debs/AppTools15-16(Roothide)_1.4.0_iphoneos-arm64e.deb
-Size: 546100
-MD5sum: c69e3038dbac3f3f8712f4c77435ff72
-SHA1: 167fb203432edc91bc83324e8ee1e0ce4a9cdb94
-SHA256: 2e6299313492ff2d0a9918bed429d5d8ca8ff3e3e4182bddce618d9d455b7700
-Section: Tweaks
-Description: AppTools for iOS15-16 Roothide
-Author: aReo
-Name: AppTools15-16(Roothide)
-
-Package: com.hang.kaiguan
-Version: 9.9
-Architecture: iphoneos-arm64e
-Maintainer: 航
-Installed-Size: 660
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: firmware (>= 14.0), mobilesubstrate
-Filename: ./debs/com.hang.kaiguan_9.9_iphoneos-arm64e.deb
-Size: 102712
-MD5sum: a0469eec284cd30b76359bd4a4491495
-SHA1: f4d0f29a60bb515364999a8b3971333236332a89
-SHA256: 043ef0a3a6a1eded919a13b27b1278c616d3db5a7e3e609fc618bdf2bf82be69
-Section: Tweaks
-Description: 简单的开关
-Author: 航
-Depiction: https://pic1.imgdb.cn/item/69d21338441d1611010f7e81.jpg
-Icon: https://pic1.imgdb.cn/item/69d21338441d1611010f7e81.jpg
-Name: 航の开关
-
 Package: com.hitori.misaki
 Version: 2.2
 Architecture: iphoneos-arm64e
@@ -909,24 +854,6 @@ Description: Control your text or translate as you wish.
 Author: lclrc(SquidForce)
 Icon: https://s1.imagehub.cc/images/2025/01/10/0458f7f83190b2b17070085595312c2b.jpeg
 Name: Hammer It
-
-Package: com.lecard.wuyu
-Version: 1.3End
-Architecture: iphoneos-arm64e
-Maintainer: Crassna
-Installed-Size: 1948
-Pre-Depends: rootless-compat (>= 0.9)
-Depends: dev.theos.orion (>= 1.0.0), firmware (>= 15.0)
-Filename: ./debs/App_1.3End_iphoneos-arm64e.deb
-Size: 447716
-MD5sum: 6d9e4cb0d2a0fa1f47bedc2f8acfbcd7
-SHA1: 04e8af237002a5992342fdd810389c1a4a704543
-SHA256: 48c27fba08e30a8d9a766cd4e2d698845d32b75b51604a4da995ba55a44c0336
-Section: Tweaks
-Description: 新分屏公测最终版，上架备份
-Author: Crassna
-Name: App Lecard
-Sileodepiction: https://lincorn.github.io/sileodepiction/com.lecard.wuyu/js.json
 
 Package: com.lenglengyu.bilibilihz-rootless
 Version: 0.0.1
@@ -1057,23 +984,6 @@ Description: Medusa!
 Author: Crassna
 Name: Stheno
 
-Package: com.opa334.choicy
-Version: 1.5-1
-Architecture: iphoneos-arm64e
-Maintainer: opa334 <opa334@protonmail.com>
-Installed-Size: 888
-Depends: mobilesubstrate, com.opa334.altlist (>= 1.0.4), preferenceloader
-Filename: ./debs/Choicy_1.5-1_iphoneos-arm64e.deb
-Size: 112156
-MD5sum: ec8e2e05e1d84d2b1f844d431ace18e3
-SHA1: 014c7d8abc6d974a7b526dd168c97198bb0d1d93
-SHA256: 3191342f475cbf5cf3ae50fbe45277ea3dbbc9cd2a6c6b84a5f8fc2f0f2cca28
-Section: Tweaks
-Description: Advanced Tweak Configuration!
-Author: opa334 <opa334@protonmail.com>
-Depiction: https://opa334.github.io/depic/Choicy/index.html
-Name: Choicy
-
 Package: com.opa334.crane
 Version: 1.3.17-2
 Architecture: iphoneos-arm64e
@@ -1091,24 +1001,6 @@ Section: Tweaks
 Description: Multiple containers for your applications!
 Author: opa334
 Name: Crane
-
-Package: com.p2kdev.tinge
-Version: 1.2.2
-Architecture: iphoneos-arm64e
-Maintainer: P2KDev <p2kdev@gmail.com>
-Installed-Size: 436
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: firmware (>= 15.0),mobilesubstrate,preferenceloader,org.thebigboss.libcolorpicker
-Filename: ./debs/com.p2kdev.tinge_1.2.2_iphoneos-arm64e-1.deb
-Size: 50852
-MD5sum: 80417c254675b0e2941a92b44bad5c5a
-SHA1: 8f221101fd557db469ae1a861e580b7230fea334
-SHA256: 315c0b02b5736922f78ef1ae1c36fb71a9571adddd1e6035fa57d60d8ccee35c
-Section: Tweaks
-Description: Color your badges with Perfection!
-Author: P2KDev <p2kdev@gmail.com>
-Icon: file:///Library/PreferenceBundles/TingePrefs.bundle/Icon@2x.png
-Name: Tinge
 
 Package: com.p2kdev.tinge
 Version: 1.2.2
@@ -1220,26 +1112,6 @@ Depiction: https://skypain.github.io/repo/static/view/?p=cclocation
 Icon: https://skypain.github.io/repo/src/cclocation/Icon.png
 Name: CCLocation
 Sileodepiction: https://skypain.github.io/repo/src/cclocation/config/sileo/depiction.json
-
-Package: com.skypain.ccvpn
-Version: 1.1.1-2
-Architecture: iphoneos-arm64e
-Maintainer: Mr.Zhang <mr_zhang_00@163.com>
-Installed-Size: 184
-Depends: com.opa334.ccsupport
-Filename: ./debs/CCVPN_1.1.1-2_iphoneos-arm64e.deb
-Size: 30596
-MD5sum: 4f36809f6bad63dac1ef64c37cdc41b9
-SHA1: 56b35e23105fa3587a9d269f84dda351558a6aeb
-SHA256: 034c21b5dbb98d33e4ca14632de464df87d13c9f4736d856065472e479670a18
-Section: Control Center (Modules)
-Homepage: https://skypain.github.io/repo/
-Description: 控制中心VPN便捷开关模块
-Author: Mr.Zhang <mr_zhang_00@163.com>
-Depiction: https://skypain.github.io/repo/static/view/?p=ccvpn
-Icon: https://skypain.github.io/repo/src/ccvpn/Icon.png
-Name: CCVPN
-Sileodepiction: https://skypain.github.io/repo/src/ccvpn/config/sileo/depiction.json
 
 Package: com.sop.settingsrevamp
 Version: 2.1.1
@@ -1516,52 +1388,6 @@ Description: Battery indicator, but cute
 Author: Traurige & neilsardesai <hello@traurige.dev>
 Name: BatteryBuddy
 
-Package: dev.traurige.batterybuddy
-Version: 1.3.5
-Architecture: iphoneos-arm64e
-Maintainer: Traurige <hello@traurige.dev>
-Installed-Size: 432
-Pre-Depends: rootless-compat (>= 0.9)
-Depends: firmware (>= 13.0), mobilesubstrate, preferenceloader
-Conflicts: love.litten.batterybuddy
-Filename: ./debs/BatteryBuddy_1.3.5_iphoneos-arm64e.deb
-Size: 76556
-MD5sum: 048921ee090fa31fdf57c11e5338f7c7
-SHA1: 4ca270342a08535d06d8efb25a79e7cdd88fe6d9
-SHA256: 4ebba65c66b290f152f150e4bd58297dd6d8e8f929a5f87e501f49023f7c1e71
-Section: Tweaks
-Description: Battery indicator, but cute
-Author: Traurige & neilsardesai <hello@traurige.dev>
-Name: BatteryBuddy
-
-Package: gawk
-Version: 5.1.0-2
-Architecture: iphoneos-arm64e
-Maintainer: RootHide <RootHideDev@twitter>
-Installed-Size: 3236
-Depends: roothide (>= 0.0.6), libiosexec1 (>= 1.3.1), libintl8, libreadline8, libmpfr6, libgmp10
-Provides: awk
-Filename: ./debs/_5.1.0-2_iphoneos-arm64e.deb
-Size: 569432
-MD5sum: 4b6e66adff2aac5190c3af4e2b731fca
-SHA1: e95f4aabe2cf36d19cea884fa094ab2c5cac717b
-SHA256: 1a8cc2619cfada592c9d905fdbaa31a336370b8a1a68b356fd62924822e0e81e
-Section: Utilities
-Priority: important
-Multi-Arch: foreign
-Homepage: http://www.gnu.org/software/gawk/
-Description: GNU awk, a pattern scanning and processing language
- `awk', a program that you can use to select particular records in a
- file and perform operations upon them.
- .
- Gawk is the GNU Project's implementation of the AWK programming language.
- It conforms to the definition of the language in the POSIX 1003.2 Command
- Language And Utilities Standard. This version in turn is based on the
- description in The AWK Programming Language, by Aho, Kernighan, and
- Weinberger, with the additional features defined in the System V Release
- 4 version of UNIX awk. Gawk also provides more recent Bell Labs awk
- extensions, and some GNU-specific extensions.
-
 Package: lai28.springanimation
 Version: 0.1-3+debug
 Architecture: iphoneos-arm64e
@@ -1579,27 +1405,6 @@ Author: 剑来
 Icon: https://s1.imagehub.cc/images/2025/02/28/f304f3a0a6ed71e8fb336e7ed1c09996.jpeg
 Name: SpringAnimation
 Sileodepiction: http://lai28.988456.xyz/depictions/native/lai28.springanimation/depiction.json
-
-Package: libmpfr6
-Version: 4.1.0
-Architecture: iphoneos-arm64e
-Maintainer: RootHide <RootHideDev@twitter>
-Installed-Size: 516
-Depends: roothide (>= 0.0.6), libiosexec1 (>= 1.3.1), libgmp10
-Filename: ./debs/_4.1.0_iphoneos-arm64e.deb
-Size: 186940
-MD5sum: 4819c20abc93a02cf07f0ff7a9d25dd8
-SHA1: 0eed815c27d1c1ac85a5fc336b1e2aac997f18ef
-SHA256: 464b9fdf4d9c9d9d0ba28316dcb38c5339c7084ddc69b927c7072a37a51bbf00
-Section: Libraries
-Priority: optional
-Homepage: https://www.mpfr.org
-Description: multiple precision floating-point computation
- MPFR provides a library for multiple-precision floating-point computation
- with correct rounding.  The computation is both efficient and has a
- well-defined semantics. It copies the good ideas from the
- ANSI/IEEE-754 standard for double-precision floating-point arithmetic
- (53-bit mantissa).
 
 Package: netskao.wechatpurifications
 Version: 4.2-7
@@ -1646,23 +1451,6 @@ Description: An awesome library of some sort!!
 Tag: role::developer
 Author: Bailey Seymour
 Name: libcolorpicker
-
-Package: plutil
-Version: 0.2.2+1
-Architecture: iphoneos-arm64e
-Maintainer: RootHide <RootHideDev@twitter>
-Installed-Size: 124
-Depends: roothide (>= 0.0.6), libiosexec1 (>= 1.3.1)
-Conflicts: com.ericasadun.utilities, com.bingner.plutil
-Provides: com.bingner.plutil (= 0.2.2+1)
-Filename: ./debs/_0.2.2+1_iphoneos-arm64e.deb
-Size: 22660
-MD5sum: bac0560a1db5e7e2335a71c9cddb293e
-SHA1: 37403aad470bfbacc85b12f65a5c29ba16d31772
-SHA256: 033ba94a03823c85caf5c996ce1af7ede1d43dd08c85a29a6621c11fbaf72676
-Section: System
-Description: Utility for creating and editing Apple property list files.
-Author: Samuel Bingner
 
 Package: ru.domo.cocoatop64
 Version: 2.2.4
