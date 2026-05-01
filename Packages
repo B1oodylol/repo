@@ -64,6 +64,21 @@ Description: Fix Apple watch connection issues
 Author: 577FKJ
 Name: WatchFix
 
+Package: cn.llld.autoscroll
+Version: 1.1
+Architecture: iphoneos-arm64e
+Maintainer: 来了老弟
+Depends: mobilesubstrate
+Filename: ./debs/cn.llld.autoscroll_1.1_iphoneos-arm64e.deb
+Size: 4268
+MD5sum: c6d575da850a3e84d68fe85d7fdc36ad
+SHA1: 313568a67562507bbd9c0411ab8124cde6b978dc
+SHA256: aaecc0653ddf096296d1fa20fc302d13c1025474a0b4e48a60e3e631e98f1bc0
+Section: roothide修复插件
+Description: Prevent finger fatigue. It will automatically continue when you slide an option or view, no need to keep touching with your finger, and the speed is determined by your strength.防止手指疲劳，在你滑动选项或视图时会自动延续，不用手指一直触摸，速度根据你的力道来决定。_________仅测试用,有问题卸载---roothide
+Author: pxcex
+Name: AutoScroll-roothide
+
 Package: cn.octoforce.copyvault
 Version: 1.9.0
 Architecture: iphoneos-arm64e
@@ -135,6 +150,21 @@ Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.disupdateapp
 Name: Hello App
 Sileodepiction: https://rootless.002599.xyz/web/cn.zqbb.disupdateapp
 
+Package: cn.zqbb.editprefs
+Version: 1.0.0
+Architecture: iphoneos-arm64e
+Maintainer: zqbb
+Installed-Size: 144
+Filename: ./debs/cn.zqbb.editprefs_1.0.0_iphoneos-arm64e.deb
+Size: 34392
+MD5sum: ae62c154bf1a67a30db6318603076710
+SHA1: 32be446bc73b5ce7b5db10a0ea5df94fbfc5ad3f
+SHA256: 4eed2af10648fa4c5e4c8b84ce4b7049abf59bd67a7577b24079d705d4e1e9d1
+Section: Utilities
+Description: An awesome application!
+Author: zqbb
+Name: Hello Edit Prefs
+
 Package: cn.zqbb.fix120hz
 Version: 3.2.1-10
 Architecture: iphoneos-arm64e
@@ -193,6 +223,24 @@ Author: zqbb
 Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.holdcpu
 Name: Hello CPU
 Sileodepiction: https://rootless.002599.xyz/web/cn.zqbb.holdcpu
+
+Package: cn.zqbb.inject.manager
+Version: 3.1.3-6
+Architecture: iphoneos-arm64e
+Maintainer: zqbb
+Installed-Size: 700
+Depends: firmware (>= 15.0)
+Filename: ./debs/cn.zqbb.inject.manager_3.1.3-6_iphoneos-arm64e.deb
+Size: 342386
+MD5sum: 1d7cf913a39def93e55fc63a5d90e895
+SHA1: d1493b330644b9617bb18805f3194cf438978747
+SHA256: 1f5c46a9db2a2005f24a77b7bee3e5a918676471ff62e617655dbf5a76ebc3cd
+Section: System
+Description: Configuare RootHide's Features
+Author: zqbb, roothide
+Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.inject.manager
+Name: RootHide Inject Manager
+Sileodepiction: https://rootless.002599.xyz/web/cn.zqbb.inject.manager
 
 Package: cn.zqbb.orzfolder
 Version: 1.3.3-2
@@ -315,6 +363,22 @@ Icon: https://TrollStoreX.Github.io/sileodepiction/wcplugins/icon.png
 Name: 微信插件管理
 Sileodepiction: https://TrollStoreX.Github.io/sileodepiction/wcplugins/js.json
 Sponsor: admin@25mao.com
+
+Package: com.82flex.singlemute
+Version: 1.7
+Architecture: iphoneos-arm64e
+Maintainer: 82Flex <82flex@gmail.com>
+Installed-Size: 388
+Depends: firmware (>= 14.0), mobilesubstrate
+Filename: ./debs/com.82flex.singlemute_1.7_iphoneos-arm64e.deb
+Size: 27554
+MD5sum: d18024d01c954cbf77f36daa9e717804
+SHA1: 4dcc25061cd281315fcef8fbb3c8533d0f19d310
+SHA256: 1f2fb99c0ecb6503c7fc10c73f14ff5b14c1a34b4f3240056a79ce21715d5560
+Section: Tweaks
+Description: Just a single mute icon on the status bar of iOS.
+Author: 82Flex <82flex@gmail.com>
+Name: Single Mute
 
 Package: com.82flex.touchvis
 Version: 4.0.1
