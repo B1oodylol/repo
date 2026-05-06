@@ -300,6 +300,28 @@ Description: Pin screenshots on the screen.
 Author: Jonathan Winger-lang
 Name: Snapper 3
 
+Package: com.korboy.filzaenhanced
+Version: 1.0.5.1
+Architecture: iphoneos-arm64e
+Maintainer: Korboy <korboybeats@gmail.com>
+Installed-Size: 76232
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), ws.hbang.alderis (>= 1.2)
+Conflicts: xyz.cypwn.filzathumbnails, xyz.cypwn.filzaswipeselect, com.axs.filzaswipeselect, com.korboy.filzaswipeselect, com.sini.filzaswipeselect, com.korboy.filzathumbnails
+Filename: ./debs/com.korboy.filzaenhanced_1.0.5.1_iphoneos-arm64e-1.deb
+Size: 38224402
+MD5sum: b5e46417f8f15cd79d0a019e205c9dfe
+SHA1: 2578d7eb7d22acb5c6c17877c52c1fc25b38fefb
+SHA256: 1837475db620184930002369baa372091b9a951e19194a8210e46d26460d8076
+Section: Tweaks
+Description: All-in-one Filza enhancements with thumbnails, theming, editor upgrades, batch rename, custom actions, swipe-select, and UI/UX fixes.
+Author: Korboy <korboybeats@gmail.com>
+Depiction: https://korboybeats.github.io/depictions/filzaenhanced/index.html
+Icon: https://korboybeats.github.io/FilzaEnhanced/icon.png
+Name: FilzaEnhanced
+Sileodepiction: https://korboybeats.github.io/depictions/filzaenhanced/sileo.json
+Summary: All-in-One Filza Enhancements
+
 Package: com.lclrc.hammerit
 Version: 1.7.1
 Architecture: iphoneos-arm64e
@@ -464,6 +486,23 @@ Section: Tweaks
 Description: 使iOS 15/16越狱高刷机型自适应/锁定120HZ。 Make iOS 15/16 ProMotion Devices auto-adpat/reach to 120Hz.
 Author: Snail <mu514983786@gmail.com>
 Name: 蜗牛自适应+锁定120 Always120
+
+Package: com.squidforce.moreactionsforappicon
+Version: 1.1.0
+Architecture: iphoneos-arm64e
+Maintainer: SquidForce
+Installed-Size: 172
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: ./debs/com.squidforce.moreactionsforappicon_1.1.0_iphoneos-arm64e-1.deb
+Size: 11068
+MD5sum: 794d06c84c418b6aed9b8f60d49cc12a
+SHA1: 6fae8dc3eec773cee8f302207f2a192c6b66db6a
+SHA256: e4f9cf9e7e34c8c410cc7001ed5c2c78c9893fb3e165a45c0dd4be2a4f11097b
+Section: Tweaks
+Description: 添加“应用标识符”，“应用设置”和“在AppStore中查看”动作，并去掉多余动作。More actions for AppIcon's 3D Touch menu, and less duplicated actions.
+Author: SquidForce
+Name: 应用3DTouch菜单
 
 Package: com.susu.fuckwechatadss
 Version: 1.0.2
