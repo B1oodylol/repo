@@ -449,6 +449,22 @@ Icon: https://skypain.github.io/repo/src/cclocation/Icon.png
 Name: CCLocation
 Sileodepiction: https://skypain.github.io/repo/src/cclocation/config/sileo/depiction.json
 
+Package: com.snail.always120.roothide
+Version: 1.2.0
+Architecture: iphoneos-arm64e
+Maintainer: Snail <mu514983786@gmail.com>
+Installed-Size: 992
+Depends: mobilesubstrate (>= 0.9.5000),preferenceloader,com.opa334.altlist
+Filename: ./debs/com.snail.always120.roothide_1.2.0_iphoneos-arm64e.deb
+Size: 260898
+MD5sum: 6aad4ed526a9a8b7425b5974c84e821e
+SHA1: 5a7a53fdc8126d6fa92bc965d68434968bb7c642
+SHA256: 50c94da4bcb38ffad2b71101e94a12105ac81fef1d5edd9aa252953677bb5d00
+Section: Tweaks
+Description: 使iOS 15/16越狱高刷机型自适应/锁定120HZ。 Make iOS 15/16 ProMotion Devices auto-adpat/reach to 120Hz.
+Author: Snail <mu514983786@gmail.com>
+Name: 蜗牛自适应+锁定120 Always120
+
 Package: com.susu.fuckwechatadss
 Version: 1.0.2
 Architecture: iphoneos-arm64e
